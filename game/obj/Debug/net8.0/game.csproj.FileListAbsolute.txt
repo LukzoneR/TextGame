@@ -1,0 +1,15 @@
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.GeneratedMSBuildEditorConfig.editorconfig
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.AssemblyInfoInputs.cache
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.AssemblyInfo.cs
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.csproj.CoreCompileInputs.cache
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.sourcelink.json
+D:\gitProjects\TextGame\game\bin\Debug\net8.0\game.exe
+D:\gitProjects\TextGame\game\bin\Debug\net8.0\game.deps.json
+D:\gitProjects\TextGame\game\bin\Debug\net8.0\game.runtimeconfig.json
+D:\gitProjects\TextGame\game\bin\Debug\net8.0\game.dll
+D:\gitProjects\TextGame\game\bin\Debug\net8.0\game.pdb
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.dll
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\refint\game.dll
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.pdb
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\game.genruntimeconfig.cache
+D:\gitProjects\TextGame\game\obj\Debug\net8.0\ref\game.dll
