@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Game\\Game.csproj",
+      "projectUniqueName": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Game\\Game.csproj",
+      "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\Game\\Game.csproj",
       "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Game\\obj\\",
+      "outputPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,8 +69,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\ClassLibrary1\\ClassLibrary1.csproj"
+            "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\ClassLibrary1\\ClassLibrary1.csproj"
             },
             "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Domain\\Domain.csproj"

@@ -16,7 +16,7 @@ class Program
     
     static void Main(string[] arg)
     {
-                    
+        Start();            
     }
 
     static void Start()
@@ -81,9 +81,10 @@ class Program
 
         Console.ResetColor();
 
-        string IntroText = "Welcome to dark forest, please enter your hero name:";
+        string IntroText = "Welcome to dark forest, please enter your hero name:\n";
         writing(IntroText);
         Hero hero = new Hero();
+        Console.Write(" > ");
         hero.name = Console.ReadLine();
         Console.WriteLine(hero.name);
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\ClassLibrary1\\ClassLibrary1.csproj": {}
+    "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\ClassLibrary1\\ClassLibrary1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\ClassLibrary1\\obj\\",
+        "outputPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\Textgame\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
