@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcin\\Desktop\\projekt_p3\\TextGame\\Domain\\Domain.csproj": {}
+    "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcin\\Desktop\\projekt_p3\\TextGame\\Domain\\Domain.csproj": {
+    "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcin\\Desktop\\projekt_p3\\TextGame\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\marcin\\Desktop\\projekt_p3\\TextGame\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcin\\Desktop\\projekt_p3\\TextGame\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\marcin\\Desktop\\Textbased game\\TextGame\\TextGame\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",

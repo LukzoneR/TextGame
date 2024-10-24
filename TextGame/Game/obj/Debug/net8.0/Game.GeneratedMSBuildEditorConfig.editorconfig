@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Game
-build_property.ProjectDir = C:\Users\marcin\Desktop\projekt_p3\TextGame\Game\
+build_property.ProjectDir = C:\Users\marcin\Desktop\Textbased game\TextGame\TextGame\Game\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
