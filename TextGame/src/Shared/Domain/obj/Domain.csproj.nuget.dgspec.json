@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\gitProjects\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {}
+    "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\gitProjects\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+    "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gitProjects\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\gitProjects\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "D:\\gitProjects\\TextGame\\src\\Shared\\Domain\\obj\\",
+        "outputPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
