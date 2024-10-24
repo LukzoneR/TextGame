@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\marci\\.nuget\\packages\\": {}
+    "C:\\Users\\marcin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\TextGame.csproj",
+      "projectUniqueName": "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\TextGame.csproj",
       "projectName": "TextGame",
-      "projectPath": "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\TextGame.csproj",
-      "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-      "outputPath": "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\obj\\",
+      "projectPath": "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\TextGame.csproj",
+      "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

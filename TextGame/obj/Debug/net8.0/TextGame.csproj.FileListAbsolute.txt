@@ -3,3 +3,8 @@ D:\gitProjects\TextGame\TextGame\TextGame\obj\Debug\net8.0\TextGame.AssemblyInfo
 D:\gitProjects\TextGame\TextGame\TextGame\obj\Debug\net8.0\TextGame.AssemblyInfo.cs
 D:\gitProjects\TextGame\TextGame\TextGame\obj\Debug\net8.0\TextGame.csproj.CoreCompileInputs.cache
 D:\gitProjects\TextGame\TextGame\TextGame\obj\Debug\net8.0\TextGame.sourcelink.json
+C:\Users\marcin\Desktop\c#\TextGame\TextGame\obj\Debug\net8.0\TextGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcin\Desktop\c#\TextGame\TextGame\obj\Debug\net8.0\TextGame.AssemblyInfoInputs.cache
+C:\Users\marcin\Desktop\c#\TextGame\TextGame\obj\Debug\net8.0\TextGame.AssemblyInfo.cs
+C:\Users\marcin\Desktop\c#\TextGame\TextGame\obj\Debug\net8.0\TextGame.csproj.CoreCompileInputs.cache
+C:\Users\marcin\Desktop\c#\TextGame\TextGame\obj\Debug\net8.0\TextGame.sourcelink.json

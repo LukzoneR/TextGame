@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj": {}
+    "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\src\\Game\\Game.csproj": {}
   },
   "projects": {
-    "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj": {
+    "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\src\\Game\\Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj",
+        "projectUniqueName": "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\src\\Game\\Game.csproj",
         "projectName": "Game",
-        "projectPath": "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj",
-        "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "D:\\gitProjects\\TextGame\\TextGame\\TextGame\\src\\Game\\obj\\",
+        "projectPath": "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\src\\Game\\Game.csproj",
+        "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marcin\\Desktop\\c#\\TextGame\\TextGame\\src\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
