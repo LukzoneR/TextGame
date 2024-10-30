@@ -5,16 +5,18 @@ namespace app;
 
 class Program
 {
-    static void writing(string text)
+///////////////////////////////////////////////////////////////////////////////////function for slower text print
+    static void writing(string text, int time = 60)
     {
         foreach (char c in text)
         {
             Console.Write(c);
-            Thread.Sleep(60);
+            Thread.Sleep(time);
         }
 
     }
     
+/////////////////////////////////////////////////////////////////////////////////////main function
     static void Main(string[] arg)
     {
         Start();            
@@ -22,8 +24,8 @@ class Program
 
     static void Start()
     {
-        ////////////////////////////////////////////////////////////////////////////////////////////////////game intro
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////game intro
+        Console.Clear();
         Console.ForegroundColor = ConsoleColor.Green;
 
         string[] art = [
@@ -79,15 +81,70 @@ class Program
 
         }
         Console.WriteLine();
-
         Console.ResetColor();
+        Thread.Sleep(3000);
+        Console.Clear();
 
-        string IntroText = "Welcome to dark forest, please enter your hero name:\n";
-        writing(IntroText);
-        Console.Write(" > ");
+/////////////////////////////////////////////////////////////////////////////////////////////////////////game starts..
         Hero hero= new Hero();
-        hero.Name = Console.ReadLine();
-        System.Console.WriteLine(hero.Name);
 
+        writing("Welcome to dark forest, please enter your hero name:\n");
+        Console.Write(" > ");
+        hero.Name = Console.ReadLine();
+        if(hero.Name == ""){
+            writing("Don't play with me. Enter your name!:\n");
+            Console.Write(" > ");
+            hero.Name = Console.ReadLine();
+            if(hero.Name == "")
+            {
+                writing("Alright your name is Puff Diddy\n");
+                hero.Name = "Puff Diddy";
+            }
+        }
+        writing("Let's begin " + hero.Name);
+        writing(" . . . \n", 200);
+        Console.ReadKey();
+        Console.Clear();
+///////////////////////////////////////////////////////////////////////////////////////////////next stage
+
+        writing("In the distant future, humanity has not survived. Cataclysms, wars and magic that returned after centuries of absence led the world to collapse.\nIn the ruins of ancient civilizations,\na handful of survivors fight for survival in a world dominated by demonic beings and corrupt, dark deities.");
+        Console.ReadKey();
+        Console.Clear();
+
+        writing("Your mission is to survive in this harsh world, gather strength and unite the remnants of humanity to face the final threat.");
+        Console.ReadKey();
+        Console.Clear();
+
+        writing("You are a mysterious figure who woke up with no memories of his past, in the heart of a dark forest full of beasts and mysterious ruins.\nOver time, you discover that your origins are crucial to the fate of the world.");
+        Console.ReadKey();
+        Console.Clear();
+
+////////////////////////////////////////////////////////////////////////////////////////////////wybór klasy postaci
+
+        writing("Now it is time to choose your way.\nChoose who are you want to be:\n(1) Mag\n(2) Warrior\n");
+        Console.Write(" > ");
+        string? choice;
+
+        do
+        {
+            choice = Console.ReadLine();
+
+            switch(choice)
+            {
+                case "1":
+                    hero = new Mag(hero.Name);
+                    writing($"{hero.Name} has been choose as Mag.");
+                    break;
+                case "2":
+                    hero = new Warrior(hero.Name);
+                    writing($"{hero.Name} has been choose as Warrior.");
+                    break;
+                default:
+                    writing("Choose one of two\n");
+                    Console.Write(" > ");
+                    break;
+            }
+        }while(choice != "1" || choice != "2");
+        
     }
 }
