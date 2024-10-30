@@ -1,8 +1,8 @@
 
 namespace Domain.Entities;
 
-    public class Warrior : Hero
-    {
+public class Warrior : Hero
+{
         public Warrior(string? name) : base()
     {
         Name = name;
@@ -25,4 +25,4 @@ namespace Domain.Entities;
     {
         Console.WriteLine($"{Name} używa Shield Block, zmniejszając obrażenia od następnego ataku.");
     }
-    }
+}

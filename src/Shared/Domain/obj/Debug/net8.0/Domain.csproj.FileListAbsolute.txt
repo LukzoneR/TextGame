@@ -21,3 +21,15 @@ D:\TextGame\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.dll
 D:\TextGame\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\TextGame\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.pdb
 D:\TextGame\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\TextGame\TextGame\src\Shared\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\TextGame\TextGame\src\Shared\Domain\bin\Debug\net8.0\Domain.dll
+D:\TextGame\TextGame\src\Shared\Domain\bin\Debug\net8.0\Domain.pdb
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.dll
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.pdb
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\ref\Domain.dll

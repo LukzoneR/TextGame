@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj": {}
+    "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj": {}
   },
   "projects": {
-    "D:\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj": {
+    "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj",
+        "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
         "projectName": "Game",
-        "projectPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Game\\Game.csproj",
+        "projectPath": "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Game\\obj\\",
+        "outputPath": "D:\\TextGame\\TextGame\\src\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj": {
-                "projectPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj"
+              "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj"
               },
-              "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
+              "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\obj\\",
+        "outputPath": "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -127,14 +127,14 @@
         }
       }
     },
-    "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+    "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "D:\\TextGame\\TextGame\\TextGame\\src\\Shared\\Domain\\obj\\",
+        "outputPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"

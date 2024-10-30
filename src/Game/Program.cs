@@ -1,127 +1,74 @@
 ﻿
+using ClassLibrary1;
 using Domain.Entities;
 
 namespace app;
 
 class Program
 {
-///////////////////////////////////////////////////////////////////////////////////function for slower text print
-    static void writing(string text, int time = 60)
+
+    static void Writing(string text, int time = 60)
     {
         foreach (char c in text)
         {
             Console.Write(c);
             Thread.Sleep(time);
         }
-
     }
     
-/////////////////////////////////////////////////////////////////////////////////////main function
+
+
     static void Main(string[] arg)
     {
         Start();            
     }
 
+
+
     static void Start()
     {
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////game intro
-        Console.Clear();
-        Console.ForegroundColor = ConsoleColor.Green;
 
-        string[] art = [
-
-        "████████████▓▓██████████████████████████████████████████████████████████████████▓▓████████████████▓▓▓▓███████████████████████████████████",
-        "██████████████████▓▓██▓▓████████████▓▓▒▒▓▓██████████████▓▓██▓▓▓▓████▓▓▓▓██████████████████████▓▓▓▓▓▓▓▓▓▓▓▓███████████████████████████████",
-        "██▓▓▓▓████████████████▓▓██████▓▓▓▓████▒▒██▓▓██▓▓▓▓▓▓▓▓████████▓▓▓▓▓▓████▓▓██▓▓████████▓▓▓▓▓▓██▓▓████████████████▓▓███████████████████████",
-        "▓▓██████▓▓▓▓▓▓██▓▓▓▓████▓▓██▓▓██▓▓▒▒██▓▓████████▓▓▓▓▓▓██▓▓██▒▒▓▓██▓▓▓▓▓▓▓▓▓▓▓▓██████████▓▓▓▓▓▓▓▓▓▓██░░▒▒▓▓▒▒▓▓▓▓██▓▓██████▓▓█████████████",
-        "▓▓░░▓▓████▓▓██▓▓▓▓██████▓▓▓▓░░▓▓░░░░██▒▒▓▓██▓▓▓▓██▓▓██▓▓▓▓██████▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▓████▓▓██▓▓▓▓▓▓░░██░░▓▓░░▒▒▓▓▓▓██▓▓▒▒▓▓██▓▓▓▓████▓▓█████",
-        "▓▓▒▒▒▒▓▓▒▒▓▓██▓▓▓▓▓▓▓▓▓▓▒▒░░▒▒▒▒▓▓░░░░▓▓████▓▓▓▓▓▓██▓▓▓▓▓▓██████▓▓▒▒▒▒▒▒▒▒▓▓▒▒██▓▓████▓▓▓▓▓▓▓▓▒▒░░██▒▒▓▓░░▒▒▓▓░░▓▓▓▓██▓▓▓▓▓▓██▓▓▓▓██▓▓███",
-        "▒▒▒▒░░██░░▓▓▓▓██▒▒████░░░░░░░░░░▒▒░░░░▓▓████░░▒▒▒▒░░▓▓▓▓▓▓██████▓▓▒▒░░▒▒░░▓▓▓▓▓▓▓▓▓▓██▓▓▓▓░░░░████▓▓██▓▓▓▓░░░░░░░░░░▒▒░░░░░░░░▓▓▓▓▓▓██▓▓▓",
-        "▒▒▒▒▒▒██▓▓░░▒▒▒▒░░░░░░░░░░░░░░░░░░██▓▓▓▓██▓▓░░░░░░░░░░░░██▓▓██▓▓▒▒░░░░▓▓░░██▓▓████▓▓████░░░░░░▒▒██▓▓▓▓▒▒░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓▓▓██▓",
-        "░░██▒▒██░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒██▓▓██▓▓░░░░░░░░░░░░░░░░░░▒▒░░░░░░██▒▒▓▓░░░░▓▓░░▓▓░░░░░░░░░░██▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▒▒▒",
-        "▒▒▓▓██▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓████▓▓▒▒▓▓████▓▓░░░░░░░░░░░░██▒▒▓▓████░░      ░░░░░░  ░░░░▓▓██▓▓  ░░░░░░██░░░░░░  ░░░░░░░░  ░░░░   ",
-        "▓▓████▓▓░░░░░░░░░░░░░░░░░░▓▓▒▒░░░░░░▓▓████▓▓▓▓████▓▓▓▓██░░░░░░░░░░  ▓▓████▓▓░░    ░░      ▒▒▒▒  ▓▓████  ░░▓▓▓▓████▒▒░░░░          ░░░░░░ ",
-        "▒▒████▓▓░░░░░░░░░░░░░░░░▓▓▓▓▓▓██▓▓░░██████▓▓▓▓▓▓████▓▓▓▓░░  ░░    ░░░░████▓▓░░░░      ░░      ▓▓▓▓████░░░░██▓▓▓▓▓▓▓▓▓▓░░        ░░▒▒██░░▓",
-        "░░▓▓██▓▓░░░░░░░░░░░░░░▒▒▓▓▓▓▓▓▓▓▓▓  ▒▒████▓▓▓▓▓▓██▓▓██▒▒░░  ░░  ░░    ████▓▓░░                ░░████▓▓░░░░░░▓▓▓▓░░  ░░░░        ░░▓▓▓▓▓▓▓",
-        "░░▓▓██▓▓░░░░    ░░  ░░░░▓▓▓▓▓▓▓▓▓▓  ▒▒████▒▒▒▒▒▒▓▓░░░░  ░░  ░░        ▓▓██▓▓░░                  ▓▓████▓▓░░        ░░░░░░        ░░▓▓▓▓▓▓█",
-        "░░████▓▓  ░░  ░░  ░░░░░░░░▓▓░░░░░░████▓▓████░░  ░░░░░░  ░░░░          ▓▓██▓▓░░        ░░        ▓▓████░░░░          ░░░░        ░░▒▒▓▓▓▓█",
-        "░░▓▓██▓▓  ░░░░░░  ░░░░░░░░░░  ░░░░░░████████  ░░░░      ░░░░░░        ▓▓████░░        ░░        ▓▓████░░░░░░    ░░░░░░░░      ░░░░░░░░░░▒",
-        "██████▓▓  ░░░░░░░░  ░░░░░░          ▓▓██████  ░░░░      ░░  ░░        ▓▓██▓▓░░        ░░        ▒▒████░░░░        ░░░░░░      ░░░░░░     ",
-        "░░██████░░░░░░░░░░░░░░░░░░░░░░  ░░  ▓▓██████░░░░░░░░░░░░░░░░░░░░░░    ██████░░░░░░░░░░░░░░░░    ▓▓████░░░░░░      ░░░░░░  ░░░░░░░░░░░░░░░",
-        "░░██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓██████░░░░░░░░░░░░░░░░░░░░░░░░░░██████░░░░░░░░░░░░░░░░░░░░██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░",
-        "░░▓▓██▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓██████░░░░░░░░░░░░░░░░░░░░░░░░░░▓▓████▒▒░░░░░░░░░░░░░░░░░░▓▓██▓▓░░░░░░░░░░░░░░▒▒░░  ░░░░░░░░░░░░░░░",
-        "░░▓▓████░░▒▒▒▒░░░░░░░░░░░░▒▒▒▒▒▒▒▒▒▒████████░░░░░░░░░░░░░░░░▒▒░░░░░░▒▒▓▓████▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒░░▓▓████▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░▒▒░░░░░",
-        "░░▓▓████▒▒▒▒░░▒▒▒▒▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▓▓████▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓████▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒",
-        "▒▒██████▓▓▒▒▒▒▒▒▒▒▒▒▒▒▓▓▒▒▒▒▒▒▒▒▒▒▒▒▓▓██████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▒▒▓▓████▓▓▒▒▒▒▓▓▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▒▒▓▓▒▒▓▓▒▒▒▒▓▓▓▓▒▒▒▒▒▒▒▒▓▓▒▒▒▒▒▒▒▒▒",
-        "▓▓██████▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▒▒▓▓██▓▓▓▓▓▓▓▓████▓▓▓▓██▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓▓▓██▓▓▓▓▒▒▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓",
-        "██▓▓██▓▓████████▓▓██▓▓▓▓████▓▓██▓▓██▓▓▓▓▓▓████▓▓▓▓▓▓▓▓████▓▓██▓▓▓▓▓▓▓▓████▓▓▓▓██▓▓██▓▓██████▓▓████████▓▓▓▓▓▓▓▓▓▓▓▓████▓▓▓▓██▓▓██████▓▓███",
-        "                  ",
-        "                   ",
-        "░▒▓███████▓▒░ ░▒▓██████▓▒░░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░      ░▒▓████████▓▒░▒▓██████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░░▒▓███████▓▒░▒▓████████▓▒░",
-        "░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░         ░▒▓█▓▒░    ",
-        "░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░         ░▒▓█▓▒░    ",
-        "░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░░▒▓███████▓▒░       ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓██████▓▒░  ░▒▓██████▓▒░   ░▒▓█▓▒░    ",
-        "░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░  ░▒▓█▓▒░    ",
-        "░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░     ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░             ░▒▓█▓▒░  ░▒▓█▓▒░    ",
-        "░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░   ░▒▓█▓▒░    "
-        ];
-
-        for (int i = 0; i < art.Length; i++)
-        {
-            if (i > 23)
-            {
-                Console.WriteLine(art[i]);
-                Thread.Sleep(250);
-            }
-            else
-            {
-                Console.WriteLine(art[i]);
-                Thread.Sleep(40);
-            }
-
-        }
-        Console.WriteLine();
-        Console.ResetColor();
-        Thread.Sleep(3000);
-        Console.Clear();
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////game starts..
+        Intro intro= new Intro();
         Hero hero= new Hero();
 
-        writing("Welcome to dark forest, please enter your hero name:\n");
+        intro.ArtPrint();
+        
+        Writing("Welcome to dark forest, please enter your hero name:\n");
         Console.Write(" > ");
         hero.Name = Console.ReadLine();
+
         if(hero.Name == ""){
-            writing("Don't play with me. Enter your name!:\n");
+            Writing("Don't play with me. Enter your name!:\n");
             Console.Write(" > ");
             hero.Name = Console.ReadLine();
             if(hero.Name == "")
             {
-                writing("Alright your name is Puff Diddy\n");
+                Writing("Alright your name is Puff Diddy\n");
                 hero.Name = "Puff Diddy";
             }
         }
-        writing("Let's begin " + hero.Name);
-        writing(" . . . \n", 200);
+  
+        Writing("Let's begin " + hero.Name);
+        Writing(" . . . \n", 200);
         Console.ReadKey();
         Console.Clear();
-///////////////////////////////////////////////////////////////////////////////////////////////next stage
+        
 
-        writing("In the distant future, humanity has not survived. Cataclysms, wars and magic that returned after centuries of absence led the world to collapse.\nIn the ruins of ancient civilizations,\na handful of survivors fight for survival in a world dominated by demonic beings and corrupt, dark deities.");
-        Console.ReadKey();
-        Console.Clear();
-
-        writing("Your mission is to survive in this harsh world, gather strength and unite the remnants of humanity to face the final threat.");
+        Writing("In the distant future, humanity has not survived. Cataclysms, wars and magic that returned after centuries of absence led the world to collapse.\nIn the ruins of ancient civilizations,\na handful of survivors fight for survival in a world dominated by demonic beings and corrupt, dark deities.");
         Console.ReadKey();
         Console.Clear();
 
-        writing("You are a mysterious figure who woke up with no memories of his past, in the heart of a dark forest full of beasts and mysterious ruins.\nOver time, you discover that your origins are crucial to the fate of the world.");
+        Writing("Your mission is to survive in this harsh world, gather strength and unite the remnants of humanity to face the final threat.");
         Console.ReadKey();
         Console.Clear();
 
-////////////////////////////////////////////////////////////////////////////////////////////////wybór klasy postaci
+        Writing("You are a mysterious figure who woke up with no memories of his past, in the heart of a dark forest full of beasts and mysterious ruins.\nOver time, you discover that your origins are crucial to the fate of the world.");
+        Console.ReadKey();
+        Console.Clear();
 
-        writing("Now it is time to choose your way.\nChoose who are you want to be:\n(1) Mag\n(2) Warrior\n");
+
+
+        Writing("Now it is time to choose your way.\nChoose who are you want to be:\n(1) Mag\n(2) Warrior\n");
         Console.Write(" > ");
         string? choice;
 
@@ -133,14 +80,14 @@ class Program
             {
                 case "1":
                     hero = new Mag(hero.Name);
-                    writing($"{hero.Name} has been choose as Mag.");
+                    Writing($"{hero.Name} has been choose as Mag.");
                     break;
                 case "2":
                     hero = new Warrior(hero.Name);
-                    writing($"{hero.Name} has been choose as Warrior.");
+                    Writing($"{hero.Name} has been choose as Warrior.");
                     break;
                 default:
-                    writing("Choose one of two\n");
+                    Writing("Choose one of two\n");
                     Console.Write(" > ");
                     break;
             }

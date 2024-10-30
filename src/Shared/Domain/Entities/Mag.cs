@@ -1,11 +1,11 @@
 
 namespace Domain.Entities;
 
-    public class Mag : Hero
-    {
-        public int Mana{ get; set; }
+public class Mag : Hero
+{
+    public int Mana{ get; set; }
 
-        public Mag(string? name) : base()
+    public Mag(string? name) : base()
     {
         Name = name;    
         Mana = 100;
@@ -20,7 +20,7 @@ namespace Domain.Entities;
 
     public void CastFireball()
     {
-        if (Mana >= 20)
+        if(Mana >= 20)
         {
             Mana -= 20;
             Console.WriteLine($"{Name} rzuca Fireball, zadając magiczne obrażenia!");
@@ -33,7 +33,7 @@ namespace Domain.Entities;
 
     public void CastIceShield()
     {
-        if (Mana >= 15)
+        if(Mana >= 15)
         {
             Mana -= 15;
             Console.WriteLine($"{Name} rzuca Ice Shield, redukując obrażenia przez krótki czas.");
@@ -43,4 +43,4 @@ namespace Domain.Entities;
             Console.WriteLine($"{Name} nie ma wystarczającej ilości many na Ice Shield.");
         }
     }
-    }
+}
