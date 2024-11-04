@@ -6,13 +6,28 @@ namespace app;
 
 class Program
 {
-
     static void Writing(string text, int time = 60)
     {
+        bool isStop = false;
+        string writtenText = "";
+
         foreach (char c in text)
         {
+            if(Console.KeyAvailable && Console.ReadKey(true).Key == ConsoleKey.Spacebar)
+            {
+                isStop = true;
+                break;
+            }
+
             Console.Write(c);
-            Thread.Sleep(time);
+            writtenText += c;
+            Thread.Sleep(time);         
+        }
+
+        if(isStop)
+        {
+            string remainingText = text.Substring(writtenText.Length);
+            Console.Write(remainingText);
         }
     }
     
@@ -53,7 +68,6 @@ class Program
         Console.ReadKey();
         Console.Clear();
         
-
         Writing("In the distant future, humanity has not survived. Cataclysms, wars and magic that returned after centuries of absence led the world to collapse.\nIn the ruins of ancient civilizations,\na handful of survivors fight for survival in a world dominated by demonic beings and corrupt, dark deities.");
         Console.ReadKey();
         Console.Clear();
@@ -70,8 +84,9 @@ class Program
 
         Writing("Now it is time to choose your way.\nChoose who are you want to be:\n(1) Mag\n(2) Warrior\n");
         Console.Write(" > ");
-        string? choice;
 
+        string? choice;
+        bool loopStop = false;
         do
         {
             choice = Console.ReadLine();
@@ -80,18 +95,20 @@ class Program
             {
                 case "1":
                     hero = new Mag(hero.Name);
-                    Writing($"{hero.Name} has been choose as Mag.");
+                    Writing($"{hero.Name} has been chosen as Mag.");
+                    loopStop = true;
                     break;
                 case "2":
                     hero = new Warrior(hero.Name);
-                    Writing($"{hero.Name} has been choose as Warrior.");
+                    Writing($"{hero.Name} has been chosen as Warrior.");
+                    loopStop = true;
                     break;
                 default:
-                    Writing("Choose one of two\n");
+                    Writing("Choose one of two below\n");
                     Console.Write(" > ");
                     break;
             }
-        }while(choice != "1" || choice != "2");
+        }while(!loopStop);
         
     }
 }
