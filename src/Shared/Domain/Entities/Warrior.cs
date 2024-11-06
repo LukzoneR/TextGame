@@ -18,11 +18,7 @@ public class Warrior : Hero
 
     public void PowerStrike()
     {
-        Console.WriteLine($"{Name} wykonuje Power Strike, zadając ogromne obrażenia fizyczne!");
+        Console.WriteLine($"{Name} make power strike and deal huge damage!");
     }
 
-    public void ShieldBlock()
-    {
-        Console.WriteLine($"{Name} używa Shield Block, zmniejszając obrażenia od następnego ataku.");
-    }
 }

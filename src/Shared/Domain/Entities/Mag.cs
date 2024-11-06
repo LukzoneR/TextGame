@@ -23,11 +23,11 @@ public class Mag : Hero
         if(Mana >= 20)
         {
             Mana -= 20;
-            Console.WriteLine($"{Name} rzuca Fireball, zadając magiczne obrażenia!");
+            Console.WriteLine($"{Name} throw a fireball and deal extra damage!");
         }
         else
         {
-            Console.WriteLine($"{Name} nie ma wystarczającej ilości many na Fireball.");
+            Console.WriteLine($"{Name} doesn't have enough magic points to throw fireball");
         }
     }
 
@@ -36,11 +36,13 @@ public class Mag : Hero
         if(Mana >= 15)
         {
             Mana -= 15;
-            Console.WriteLine($"{Name} rzuca Ice Shield, redukując obrażenia przez krótki czas.");
+            Armor += 10;
+            Console.WriteLine($"{Name} throw ice shield and get 10 points of armor!");
         }
         else
         {
-            Console.WriteLine($"{Name} nie ma wystarczającej ilości many na Ice Shield.");
+            Console.WriteLine($"{Name} doesn't have enough magic points to throw ice shield");
         }
     }
+
 }

@@ -1,6 +1,5 @@
 
 namespace Domain.Entities;
-
 public class Hero
 {
     public string? Name{ get; set; }
@@ -9,6 +8,7 @@ public class Hero
     public int Gold{ get; set; }
     public int Armor{ get; set; }
     public string? Weapon{ get; set; }
+    public int Potion{ get; set; }
 
     public Hero()
     {
@@ -17,14 +17,15 @@ public class Hero
         Gold = 0;
         Armor = 5;
         Weapon = "Basic Sword";
+        Potion = 3;
     }
 
-        public virtual void UseSpecialSkill()
+    public virtual void UseSpecialSkill()
     {
         Console.WriteLine($"{Name} use special power!");
     }
 
-    public void DisplayStats()
+    public virtual void  DisplayStats()
     {
         Console.WriteLine($"Name: {Name}, Health: {Health}, Damage: {Damage}, Gold: {Gold}, Armor: {Armor}, Weapon: {Weapon}");
     }
