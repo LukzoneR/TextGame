@@ -79,9 +79,6 @@ class Program
                     break;
             }
         }while(!loopStop);
-
-        Fight fight = new Fight(hero);
-
         
     }
 }

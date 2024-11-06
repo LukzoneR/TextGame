@@ -3,12 +3,12 @@ namespace ClassLibrary1;
 
 public class Fight
 {
-    private Hero _hero;
+    // private Hero _hero;
 
-    public Fight(Hero hero)
-    {
-        _hero = hero;
-    }
+    // public Fight(Hero hero)
+    // {
+    //     _hero = hero;
+    // }
     public static void Combat(bool random, string name, int power, int health, int armor)
     {
         string n = "";
@@ -34,7 +34,7 @@ public class Fight
             Console.WriteLine("|         (P)ower          |");
             Console.WriteLine("|  (R)un          (H)eal   |");
             Console.WriteLine("|--------------------------|");
-            Console.WriteLine(" Potions: " + _hero.Potion);
+            Console.WriteLine(" Potions: ");
         }
 
     }

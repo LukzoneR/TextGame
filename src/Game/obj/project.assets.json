@@ -43,35 +43,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marci\\.nuget\\packages\\": {}
+    "C:\\Users\\marcin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
+      "projectUniqueName": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
-      "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-      "outputPath": "D:\\TextGame\\TextGame\\src\\Game\\obj\\",
+      "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Game\\Game.csproj",
+      "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj"
+            "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj": {
+              "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\ClassLibrary1\\ClassLibrary1.csproj"
             },
-            "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
+            "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
             }
           }
         }

@@ -33,3 +33,15 @@ D:\TextGame\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
 D:\TextGame\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
 D:\TextGame\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
 D:\TextGame\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.deps.json
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\bin\Debug\net8.0\ClassLibrary1.pdb
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfoInputs.cache
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.AssemblyInfo.cs
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.sourcelink.json
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\refint\ClassLibrary1.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ClassLibrary1.pdb
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\ClassLibrary1\obj\Debug\net8.0\ref\ClassLibrary1.dll

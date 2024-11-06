@@ -33,3 +33,15 @@ D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.dll
 D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.pdb
 D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\ref\Domain.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\bin\Debug\net8.0\Domain.deps.json
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\bin\Debug\net8.0\Domain.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\bin\Debug\net8.0\Domain.pdb
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\refint\Domain.dll
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.pdb
+c:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\ref\Domain.dll
