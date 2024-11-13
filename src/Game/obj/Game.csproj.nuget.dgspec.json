@@ -90,7 +90,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

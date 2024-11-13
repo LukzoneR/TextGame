@@ -3,11 +3,11 @@ namespace Domain.Entities;
 
 public class Mag : Hero
 {
-    public int Mana{ get; set; }
+    public int Mana { get; set; }
 
     public Mag(string? name) : base()
     {
-        Name = name;    
+        Name = name ?? "Unknown Mage";
         Mana = 100;
         Damage += 5;
         Weapon = "Magic Staff";
@@ -15,34 +15,59 @@ public class Mag : Hero
 
     public override void UseSpecialSkill()
     {
-        CastFireball();
+        Console.WriteLine("Choose a spell: (F)ireball or (I)ceShield");
+        Console.Write(" > ");
+        
+        string? input = Console.ReadLine()?.Trim().ToLower();
+
+        if (string.IsNullOrEmpty(input))
+        {
+            Console.WriteLine("Please enter a valid action.");
+            return;
+        }
+
+        switch (input)
+        {
+            case "f":
+            case "fireball":
+                CastFireball();
+                break;
+
+            case "i":
+            case "iceshield":
+                CastIceShield();
+                break;
+
+            default:
+                Console.WriteLine("Invalid choice. Please choose either (F)ireball or (I)ceShield.");
+                break;
+        }
     }
 
     public void CastFireball()
     {
-        if(Mana >= 20)
+        if (Mana >= 20)
         {
             Mana -= 20;
-            Console.WriteLine($"{Name} throw a fireball and deal extra damage!");
+            Console.WriteLine($"{Name} throws a fireball, dealing extra damage!");
         }
         else
         {
-            Console.WriteLine($"{Name} doesn't have enough magic points to throw fireball");
+            Console.WriteLine($"{Name} doesn't have enough mana to cast Fireball.");
         }
     }
 
     public void CastIceShield()
     {
-        if(Mana >= 15)
+        if (Mana >= 15)
         {
             Mana -= 15;
             Armor += 10;
-            Console.WriteLine($"{Name} throw ice shield and get 10 points of armor!");
+            Console.WriteLine($"{Name} uses Ice Shield, gaining 10 points of armor!");
         }
         else
         {
-            Console.WriteLine($"{Name} doesn't have enough magic points to throw ice shield");
+            Console.WriteLine($"{Name} doesn't have enough mana to cast Ice Shield.");
         }
     }
-
 }

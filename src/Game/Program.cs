@@ -71,6 +71,8 @@ class Program
                     break;
             }
         }while(!loopStop);
+
+        Fight.Combat(false, hero);
         
     }
 }
