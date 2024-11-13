@@ -1,4 +1,4 @@
-
+using Utilities;
 namespace Methods;
 
 public class StoryPrint : Writing

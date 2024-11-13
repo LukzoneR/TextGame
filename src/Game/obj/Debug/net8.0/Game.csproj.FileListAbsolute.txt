@@ -44,9 +44,7 @@ D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Game.deps.json
 D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Game.runtimeconfig.json
 D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Game.dll
 D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Game.pdb
-D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\ClassLibrary1.dll
 D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Domain.dll
-D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\ClassLibrary1.pdb
 D:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Domain.pdb
 D:\TextGame\TextGame\src\Game\obj\Debug\net8.0\Game.csproj.AssemblyReference.cache
 D:\TextGame\TextGame\src\Game\obj\Debug\net8.0\Game.GeneratedMSBuildEditorConfig.editorconfig
@@ -60,3 +58,9 @@ D:\TextGame\TextGame\src\Game\obj\Debug\net8.0\refint\Game.dll
 D:\TextGame\TextGame\src\Game\obj\Debug\net8.0\Game.pdb
 D:\TextGame\TextGame\src\Game\obj\Debug\net8.0\Game.genruntimeconfig.cache
 D:\TextGame\TextGame\src\Game\obj\Debug\net8.0\ref\Game.dll
+d:\TextGame\TextGame\src\Game\bin\Debug\net8.0\CharacterEngine.dll
+d:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Methods.dll
+d:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Methods.pdb
+d:\TextGame\TextGame\src\Game\bin\Debug\net8.0\CharacterEngine.pdb
+d:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Utilities.dll
+d:\TextGame\TextGame\src\Game\bin\Debug\net8.0\Utilities.pdb

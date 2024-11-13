@@ -1,27 +1,216 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj": {}
+    "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj": {
+    "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
-        "projectName": "Methods",
-        "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
-        "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\obj\\",
+        "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj",
+        "projectName": "CharacterEngine",
+        "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj",
+        "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
+        "outputPath": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
+        "outputPath": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
+                "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj"
+              },
+              "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
+                "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
+        "projectName": "Methods",
+        "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
+        "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
+        "outputPath": "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
+                "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj"
+              },
+              "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
+              },
+              "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
+                "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj",
+        "projectName": "Utilities",
+        "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj",
+        "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
+        "outputPath": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

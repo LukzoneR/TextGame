@@ -5,7 +5,7 @@ public class Warrior : Hero
 {
         public Warrior(string? name) : base()
     {
-        Name = name;
+        Name = name ?? "Unknow Warrior";
         Health += 50;        
         Armor += 10;     
         Weapon = "Great Sword";

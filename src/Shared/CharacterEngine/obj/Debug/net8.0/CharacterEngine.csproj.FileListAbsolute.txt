@@ -1,0 +1,12 @@
+d:\TextGame\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.deps.json
+d:\TextGame\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.dll
+d:\TextGame\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.pdb
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.GeneratedMSBuildEditorConfig.editorconfig
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.AssemblyInfoInputs.cache
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.AssemblyInfo.cs
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.csproj.CoreCompileInputs.cache
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.sourcelink.json
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.dll
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\refint\CharacterEngine.dll
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.pdb
+d:\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\ref\CharacterEngine.dll

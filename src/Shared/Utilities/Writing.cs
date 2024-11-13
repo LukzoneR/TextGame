@@ -1,5 +1,5 @@
 
-namespace Methods;
+namespace Utilities;
 
 public class Writing
 {

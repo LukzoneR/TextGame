@@ -1,0 +1,12 @@
+D:\TextGame\TextGame\src\Shared\Utilities\bin\Debug\net8.0\Utilities.deps.json
+d:\TextGame\TextGame\src\Shared\Utilities\bin\Debug\net8.0\Utilities.dll
+d:\TextGame\TextGame\src\Shared\Utilities\bin\Debug\net8.0\Utilities.pdb
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\Utilities.csproj.CoreCompileInputs.cache
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\Utilities.sourcelink.json
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\Utilities.dll
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\refint\Utilities.dll
+d:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\Utilities.pdb
+D:\TextGame\TextGame\src\Shared\Utilities\obj\Debug\net8.0\ref\Utilities.dll

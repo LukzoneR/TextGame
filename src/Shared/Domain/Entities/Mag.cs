@@ -1,7 +1,9 @@
+using Utilities;
+using CharacterEngine;
 
 namespace Domain.Entities;
 
-public class Mag : Hero
+public class Mag : Hero, IManaUser
 {
     public int Mana { get; set; }
 
@@ -15,14 +17,14 @@ public class Mag : Hero
 
     public override void UseSpecialSkill()
     {
-        Console.WriteLine("Choose a spell: (F)ireball or (I)ceShield");
+        Writing.Print("Choose a spell: (F)ireball or (I)ceShield\n");
         Console.Write(" > ");
         
         string? input = Console.ReadLine()?.Trim().ToLower();
 
         if (string.IsNullOrEmpty(input))
         {
-            Console.WriteLine("Please enter a valid action.");
+            Writing.Print("Please enter a valid action.");
             return;
         }
 
@@ -30,12 +32,12 @@ public class Mag : Hero
         {
             case "f":
             case "fireball":
-                CastFireball();
+                CastSpell("Fireball");
                 break;
 
             case "i":
             case "iceshield":
-                CastIceShield();
+                CastSpell("IceShield");
                 break;
 
             default:
@@ -44,30 +46,23 @@ public class Mag : Hero
         }
     }
 
-    public void CastFireball()
+    public void CastSpell(string spellName)
     {
-        if (Mana >= 20)
+        if (spellName == "Fireball" && Mana >= 20)
         {
             Mana -= 20;
-            Console.WriteLine($"{Name} throws a fireball, dealing extra damage!");
+            Writing.Print($"{Name} casts Fireball, dealing extra damage!");
         }
-        else
-        {
-            Console.WriteLine($"{Name} doesn't have enough mana to cast Fireball.");
-        }
-    }
-
-    public void CastIceShield()
-    {
-        if (Mana >= 15)
+        else if (spellName == "IceShield" && Mana >= 15)
         {
             Mana -= 15;
             Armor += 10;
-            Console.WriteLine($"{Name} uses Ice Shield, gaining 10 points of armor!");
+            Writing.Print($"{Name} uses Ice Shield, gaining 10 armor points!");
         }
         else
         {
-            Console.WriteLine($"{Name} doesn't have enough mana to cast Ice Shield.");
+            Writing.Print($"{Name} doesn't have enough mana to cast {spellName}.");
         }
     }
+
 }

@@ -1,4 +1,5 @@
-
+using Domain.Entities;
+using Utilities;
 namespace Methods;
 
 public class Fight

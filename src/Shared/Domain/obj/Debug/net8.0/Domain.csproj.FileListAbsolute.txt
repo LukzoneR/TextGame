@@ -45,3 +45,9 @@ C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Dom
 C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Domain\obj\Debug\net8.0\ref\Domain.dll
+d:\TextGame\TextGame\src\Shared\Domain\bin\Debug\net8.0\CharacterEngine.dll
+d:\TextGame\TextGame\src\Shared\Domain\bin\Debug\net8.0\CharacterEngine.pdb
+d:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\TextGame\TextGame\src\Shared\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+d:\TextGame\TextGame\src\Shared\Domain\bin\Debug\net8.0\Utilities.dll
+d:\TextGame\TextGame\src\Shared\Domain\bin\Debug\net8.0\Utilities.pdb

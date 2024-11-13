@@ -1,6 +1,6 @@
-
+using CharacterEngine;
 namespace Domain.Entities;
-public class Hero
+public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay
 {
     public string? Name{ get; set; }
     public int Health{ get; set; }

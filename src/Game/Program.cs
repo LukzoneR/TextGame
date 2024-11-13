@@ -1,6 +1,7 @@
 ﻿
 using Methods;
 using Domain.Entities;
+using Utilities;
 
 namespace app;
 
