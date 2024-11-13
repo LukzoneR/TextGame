@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
-      "projectName": "Domain",
-      "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
+      "projectName": "Methods",
+      "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
       "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",

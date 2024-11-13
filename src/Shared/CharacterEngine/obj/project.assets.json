@@ -2,20 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "CharacterEngine/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Domain": "1.0.0",
-          "Methods": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CharacterEngine.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CharacterEngine.dll": {}
-        }
-      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -39,25 +25,19 @@
     }
   },
   "libraries": {
-    "CharacterEngine/1.0.0": {
-      "type": "project",
-      "path": "../Shared/CharacterEngine/CharacterEngine.csproj",
-      "msbuildProject": "../Shared/CharacterEngine/CharacterEngine.csproj"
-    },
     "Domain/1.0.0": {
       "type": "project",
-      "path": "../Shared/Domain/Domain.csproj",
-      "msbuildProject": "../Shared/Domain/Domain.csproj"
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     },
     "Methods/1.0.0": {
       "type": "project",
-      "path": "../Shared/Methods/Methods.csproj",
-      "msbuildProject": "../Shared/Methods/Methods.csproj"
+      "path": "../Methods/Methods.csproj",
+      "msbuildProject": "../Methods/Methods.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CharacterEngine >= 1.0.0",
       "Domain >= 1.0.0",
       "Methods >= 1.0.0"
     ]
@@ -68,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Game\\Game.csproj",
-      "projectName": "Game",
-      "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Game\\Game.csproj",
+      "projectUniqueName": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj",
+      "projectName": "CharacterEngine",
+      "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj",
       "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Game\\obj\\",
+      "outputPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\CharacterEngine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,9 +69,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
-              "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj"
-            },
             "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
             },

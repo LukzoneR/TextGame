@@ -1,0 +1,5 @@
+C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Methods\obj\Debug\net8.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Methods\obj\Debug\net8.0\Methods.AssemblyInfoInputs.cache
+C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Methods\obj\Debug\net8.0\Methods.AssemblyInfo.cs
+C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Methods\obj\Debug\net8.0\Methods.csproj.CoreCompileInputs.cache
+C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\Methods\obj\Debug\net8.0\Methods.sourcelink.json

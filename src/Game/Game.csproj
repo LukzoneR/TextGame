@@ -1,8 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared\ClassLibrary1\ClassLibrary1.csproj" />
     <ProjectReference Include="..\Shared\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Shared\Methods\Methods.csproj" />
+    <ProjectReference Include="..\Shared\CharacterEngine\CharacterEngine.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

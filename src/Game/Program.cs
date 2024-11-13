@@ -1,5 +1,5 @@
 ﻿
-using ClassLibrary1;
+using Methods;
 using Domain.Entities;
 
 namespace app;
