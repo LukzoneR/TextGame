@@ -58,12 +58,14 @@ class Program
                     hero = new Mag(hero.Name);
                     Writing.Print($"{hero.Name} has been chosen as Mag.\n");
                     Writing.Print("Your skills are fireball cast and ice shield");
+                    Console.ReadKey();
                     loopStop = true;
                     break;
                 case "2":
                     hero = new Warrior(hero.Name);
                     Writing.Print($"{hero.Name} has been chosen as Warrior.\n");
                     Writing.Print("Your skill is power strike");
+                    Console.ReadKey();
                     loopStop = true;
                     break;
                 default:
@@ -73,7 +75,7 @@ class Program
             }
         }while(!loopStop);
 
-        Fight.Combat(false, hero);
+        Fight.Combat(false, hero, "Nazgul", 100, 45);
         
     }
 }

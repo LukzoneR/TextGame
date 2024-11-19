@@ -9,6 +9,7 @@ public class Warrior : Hero
         Health += 50;        
         Armor += 10;     
         Weapon = "Great Sword";
+        WeaponValue = 8;
     }
 
     public override void UseSpecialSkill()

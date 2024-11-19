@@ -13,6 +13,7 @@ public class Mag : Hero, IManaUser
         Mana = 100;
         Damage += 5;
         Weapon = "Magic Staff";
+        WeaponValue = 6;
     }
 
     public override void UseSpecialSkill()

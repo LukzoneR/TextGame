@@ -8,15 +8,17 @@ public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay
     public int Gold{ get; set; }
     public int Armor{ get; set; }
     public string? Weapon{ get; set; }
+    public int WeaponValue{ get; set; }
     public int Potion{ get; set; }
 
     public Hero()
     {
         Health = 100;
-        Damage = 10;
+        Damage = 5;
         Gold = 0;
         Armor = 5;
         Weapon = "Basic Sword";
+        WeaponValue = 5;
         Potion = 3;
     }
 
