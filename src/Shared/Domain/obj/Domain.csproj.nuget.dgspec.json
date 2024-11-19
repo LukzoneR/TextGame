@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {}
+    "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {}
   },
   "projects": {
     "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
@@ -62,14 +62,14 @@
         }
       }
     },
-    "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+    "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
+        "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\obj\\",
+        "outputPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -87,8 +87,8 @@
               "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
                 "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj"
               },
-              "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
-                "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj"
+              "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
+                "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj"
               }
             }
           }
@@ -127,14 +127,14 @@
         }
       }
     },
-    "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
+    "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj",
+        "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-        "outputPath": "d:\\TextGame\\TextGame\\src\\Shared\\Utilities\\obj\\",
+        "outputPath": "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"

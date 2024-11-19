@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
+      "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
       "projectName": "Game",
-      "projectPath": "d:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
+      "projectPath": "D:\\TextGame\\TextGame\\src\\Game\\Game.csproj",
       "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
-      "outputPath": "d:\\TextGame\\TextGame\\src\\Game\\obj\\",
+      "outputPath": "D:\\TextGame\\TextGame\\src\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -110,8 +110,8 @@
             "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
               "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj"
             },
-            "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
+            "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
             },
             "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj": {
               "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj"
