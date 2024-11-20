@@ -5,8 +5,9 @@ namespace Methods;
 public class Fight
 {
     static Random random = new Random();
-    public static void Combat(bool rand, Hero hero, string name, int health, int power)
+    public static void Combat(bool rand, Hero hero, string name="", int health=0, int power=0)
     {
+        
         string? enemyName = "";
         int enemyHealth = 0;
         int enemyPower = 0;
@@ -16,7 +17,11 @@ public class Fight
 
         if (rand)
         {
-            
+            Enemy enemy = new Enemy();
+            enemy.RandomStatsGenerator();
+            enemyName = enemy.Name;
+            enemyHealth = enemy.Health;
+            enemyPower = enemy.Power;
         }
         else
         {

@@ -75,7 +75,7 @@ class Program
             }
         }while(!loopStop);
 
-        Fight.Combat(false, hero, "Nazgul", 100, 45);
+        Fight.Combat(true, hero);
         
     }
 }
