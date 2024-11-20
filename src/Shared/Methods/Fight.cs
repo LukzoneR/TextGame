@@ -7,7 +7,7 @@ public class Fight
     static Random random = new Random();
     public static void Combat(bool rand, Hero hero, string name="", int health=0, int power=0)
     {
-        
+        EnemyPictures enemyPictures= new EnemyPictures();
         string? enemyName = "";
         int enemyHealth = 0;
         int enemyPower = 0;
@@ -33,6 +33,24 @@ public class Fight
         while (hero.Health > 0 && enemyHealth >= 0)
         {
             Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            switch (enemyName)
+            {
+                case "Goblin":
+                    Console.Write(enemyPictures.Goblin);
+                    break;
+                case "Nazgul":
+                    Console.Write(enemyPictures.Nazgul);
+                    break;
+                case "Ghoul":
+                    Console.Write(enemyPictures.Ghoul);
+                    break;
+                case "Orc":
+                    Console.Write(enemyPictures.Orc);
+                    break;
+            }
+            Console.ResetColor();
+            Console.WriteLine();
             Console.WriteLine($"Enemy name: {enemyName}");
             Console.WriteLine($"Enemy Health: {enemyHealth} | Enemy Power: {enemyPower}");
             Console.WriteLine("");
@@ -42,9 +60,9 @@ public class Fight
             Console.WriteLine("|  (R)un          (H)eal   |");
             Console.WriteLine("|--------------------------|");
             Console.WriteLine($"Potions: {hero.Potion} | Health: {hero.Health} | Armor: {hero.Armor}");
-            Writing.Print("Choose an action: \n");
-
-            string? input = Console.ReadLine()?.ToLower();
+            Console.WriteLine("Choose an action:");
+            Console.Write(" > ");
+            string? input = Console.ReadLine()?.ToLower().Trim();
 
             if (string.IsNullOrEmpty(input))
             {
@@ -131,6 +149,13 @@ public class Fight
                 Writing.Print($"{hero.Name} was killed!");
                 break;
             }
+
+            if(enemyHealth <= 0)
+            {
+                Writing.Print($"{enemyName} was killed!\n {hero.Name} won!");
+                break;
+            }
+
         }
     }
 }

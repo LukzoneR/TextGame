@@ -50,7 +50,7 @@ class Program
         bool loopStop = false;
         do
         {
-            choice = Console.ReadLine();
+            choice = Console.ReadLine()?.Trim();
 
             switch(choice)
             {

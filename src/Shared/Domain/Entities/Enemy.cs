@@ -11,7 +11,7 @@ public class Enemy
     public void RandomStatsGenerator()
     {
         Random random = new Random();
-        List<string> names = new List<string> { "Orc", "Ghul", "Nazgul", "Goblin" };
+        List<string> names = new List<string> { "Orc", "Ghoul", "Nazgul", "Goblin" };
         Name = names[random.Next(0, names.Count)];
 
         switch(Name)
@@ -20,7 +20,7 @@ public class Enemy
                 Health = random.Next(60,80);
                 Power = random.Next(30,40);
                 break;
-            case "Ghul":
+            case "Ghoul":
                 Health = random.Next(50,70);
                 Power = random.Next(20,30);
                 break;
