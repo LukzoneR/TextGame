@@ -98,9 +98,7 @@ public class Fight
                 case "power":
                     Writing.Print($"{hero.Name} use a special attack!\n");
                     hero.UseSpecialSkill();
-                    hero.Health -= 10;
                     break;
-
                 case "r":
                 case "run":
                     if(random.Next(0,2) == 0)

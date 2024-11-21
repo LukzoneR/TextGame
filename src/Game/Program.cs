@@ -56,7 +56,7 @@ class Program
             {
                 case "1":
                     hero = new Mag(hero.Name);
-                    Writing.Print($"{hero.Name} has been chosen as Mag.\n");
+                    Writing.Print($"{hero.Name} has been chosen as Mage.\n");
                     Writing.Print("Your skills are fireball cast and ice shield");
                     Console.ReadKey();
                     loopStop = true;
