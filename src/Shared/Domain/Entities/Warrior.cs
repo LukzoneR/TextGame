@@ -1,8 +1,9 @@
+using CharacterEngine;
 using Utilities;
 
 namespace Domain.Entities;
 
-public class Warrior : Hero
+public class Warrior : Hero, ISpecialSkillUser
 {
     private int stamina;
 
@@ -19,7 +20,8 @@ public class Warrior : Hero
                 stamina = value;
         }
     }
-        public Warrior(string? name) : base()
+
+    public Warrior(string? name) : base()
     {
         Name = name ?? "Unknow Warrior";
         Health += 50;        
@@ -34,21 +36,20 @@ public class Warrior : Hero
         PowerStrike();
     }
 
-    public void PowerStrike()
+    private void PowerStrike()
     {
-        if(Stamina >= 20){
-            Writing.Print($"{Name} make power strike and deal huge damage!");
-            Stamina -= 20;
+        if (Stamina >= 20)
+        {
+            Writing.Print($"{Name} uses Power Strike, dealing 25 damage and receiving a counter hit!\n");
         }
         else
         {
-            Writing.Print("You don't have enough stamina to do Power Strike");
+            Writing.Print($"{Name} doesn't have enough stamina to use Power Strike.\n");
         }
     }
 
-    public void RegenerateStamina(int amount)
+    public int DealPowerStrikeDamage()
     {
-        Stamina += amount;
+        return 25; // Zadaje 25 obrażeń
     }
-
 }

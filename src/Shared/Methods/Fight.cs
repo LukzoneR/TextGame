@@ -70,12 +70,19 @@ public class Fight
                 continue;
             }
 
+
+            if (hero is Mag mag)
+            {
+                mag.ProcessTurnEffects(); // Obsługa efektów IceShield
+            }
+
+
             switch (input)
             {
                 case "a":
                 case "attack":
                     Writing.Print($"{hero.Name} attacks the enemy!\n");
-                    damage = random.Next(hero.Armor, enemyPower+1) - hero.Armor - random.Next(1,5);
+                    damage = random.Next(hero.Armor, enemyPower+1) - random.Next(1, hero.Armor);
                     damage = (damage < 0)? 0 : damage;
                     attack = random.Next(0, hero.WeaponValue) + random.Next(2, hero.Damage) + random.Next(1, 4);
                     hero.Health -= damage;
@@ -86,7 +93,7 @@ public class Fight
                 case "d":
                 case "defend":
                     Writing.Print($"{hero.Name} defends!\n");
-                    damage = (enemyPower/random.Next(2,5)) - hero.Armor;
+                    damage = (enemyPower/random.Next(2,4)) - hero.Armor;
                     damage = (damage < 0)? 0 : damage;
                     attack = random.Next(0, hero.WeaponValue)/2 + random.Next(2, hero.Damage)/2;
                     hero.Health -= damage;
@@ -96,9 +103,32 @@ public class Fight
 
                 case "p":
                 case "power":
-                    Writing.Print($"{hero.Name} use a special attack!\n");
                     hero.UseSpecialSkill();
+                    if (hero is Mag magHero)
+                    {
+                        if (magHero.Mana >= 20)
+                        {
+                            attack = magHero.FireballDamage;
+                            enemyHealth -= attack; // Zadaje 20 obrażeń
+                            damage = 0;
+                            Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
+                        }
+                    }
+                    else if (hero is Warrior warriorHero)
+                    {
+                        if (warriorHero.Stamina >= 20)
+                        {
+                            warriorHero.Stamina -= 20;
+                            attack = warriorHero.DealPowerStrikeDamage();
+                            damage = random.Next(hero.Armor, enemyPower + 1) - random.Next(1, hero.Armor); // Wojownik otrzymuje obrażenia
+                            damage = (damage < 0)? 0 : damage;
+                            hero.Health -= damage;
+                            enemyHealth -= attack;
+                            Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
+                        }
+                    }
                     break;
+
                 case "r":
                 case "run":
                     if(random.Next(0,2) == 0)
