@@ -56,7 +56,7 @@ public class EnemyPictures
 
 
       public string Orc = @"
-       ,      ,
+       ,      , 
       /(.-""-.)\
       \/      \/
       / =.  .= \

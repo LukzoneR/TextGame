@@ -1,5 +1,6 @@
 using Domain.Entities;
 using Utilities;
+using System.Text.Json;
 namespace Methods;
 
 public class Fight
@@ -7,6 +8,8 @@ public class Fight
     static Random random = new Random();
     public static void Combat(bool rand, Hero hero, string name="", int health=0, int power=0)
     {
+        List<FightRound> fightLog = new List<FightRound>();
+
         //enemy 
         EnemyPictures enemyPictures= new EnemyPictures();
         string? enemyName = "";
@@ -94,6 +97,18 @@ public class Fight
                     enemyHealth -= attack;
                     Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                     hero.PointsAdd();
+
+                    fightLog.Add(new FightRound
+                    {
+                        HeroName = hero.Name,
+                        EnemyName = enemyName ?? "Unknown",
+                        HeroHealth = hero.Health,
+                        EnemyHealth = enemyHealth,
+                        Action = "Attack",
+                        DamageTaken = damage,
+                        DamageDealt = attack
+                    });
+
                     break;
 
                 case "d":
@@ -106,6 +121,17 @@ public class Fight
                     enemyHealth -= attack;
                     Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                     hero.PointsAdd();
+
+                    fightLog.Add(new FightRound
+                    {
+                        HeroName = hero.Name,
+                        EnemyName = enemyName ?? "Unknown",
+                        HeroHealth = hero.Health,
+                        EnemyHealth = enemyHealth,
+                        Action = "Defend",
+                        DamageTaken = damage,
+                        DamageDealt = attack
+                    });
                     break;
 
                 case "p":
@@ -117,6 +143,7 @@ public class Fight
                         enemyHealth -= attack;
                         damage = 0;
                         Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
+                        magHero.FireballDamage = 0;
                     }
                     else if (hero is Warrior warriorHero)
                     {
@@ -131,6 +158,17 @@ public class Fight
                             Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                         }
                     }
+
+                    fightLog.Add(new FightRound
+                    {
+                        HeroName = hero.Name,
+                        EnemyName = enemyName ?? "Unknown",
+                        HeroHealth = hero.Health,
+                        EnemyHealth = enemyHealth,
+                        Action = "Power",
+                        DamageTaken = damage,
+                        DamageDealt = attack
+                    });
                     break;
 
                 case "r":
@@ -149,6 +187,18 @@ public class Fight
                         hero.Health -= damage;
                         Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                         hero.PointsAdd();
+
+                        fightLog.Add(new FightRound
+                        {
+                            HeroName = hero.Name,
+                            EnemyName = enemyName ?? "Unknown",
+                            HeroHealth = hero.Health,
+                            EnemyHealth = enemyHealth,
+                            Action = "Attack",
+                            DamageTaken = damage,
+                            DamageDealt = attack
+                        });
+
                         break;
                     } 
                     
@@ -170,6 +220,18 @@ public class Fight
                         hero.Health -= damage;
                         Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                     }
+
+                    fightLog.Add(new FightRound
+                    {
+                        HeroName = hero.Name,
+                        EnemyName = enemyName ?? "Unknown",
+                        HeroHealth = hero.Health,
+                        EnemyHealth = enemyHealth,
+                        Action = "Attack",
+                        DamageTaken = damage,
+                        DamageDealt = attack
+                    });
+
                     break;
 
                 default:
@@ -190,6 +252,27 @@ public class Fight
                 break;
             }
 
+            if(hero.Health <= 0 || enemyHealth <= 0)
+            {
+                
+                // Określenie ścieżki do folderu Files
+                string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                string filesDirectory = Path.Combine(projectDirectory, "..", "..", "..", "Files");
+
+                // Tworzenie folderu Files, jeśli nie istnieje
+                if (!Directory.Exists(filesDirectory))
+                {
+                    Directory.CreateDirectory(filesDirectory);
+                }
+
+                // Ścieżka do pliku JSON
+                string filePath = Path.Combine(filesDirectory, "fight_log.json");
+
+                // Serializacja i zapis JSON
+                string json = JsonSerializer.Serialize(fightLog, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(filePath, json);
+            }
+            
         }
     }
 }

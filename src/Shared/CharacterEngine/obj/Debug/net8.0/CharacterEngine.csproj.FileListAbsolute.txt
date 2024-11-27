@@ -22,3 +22,15 @@ C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\CharacterEngine\obj\Debug\n
 C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\refint\CharacterEngine.dll
 C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.pdb
 C:\Users\marcin\Documents\GitHub\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\ref\CharacterEngine.dll
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.deps.json
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.dll
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.pdb
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.AssemblyInfoInputs.cache
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.AssemblyInfo.cs
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.csproj.CoreCompileInputs.cache
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.sourcelink.json
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.dll
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\refint\CharacterEngine.dll
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.pdb
+c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\ref\CharacterEngine.dll
