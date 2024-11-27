@@ -1,9 +1,10 @@
 using CharacterEngine;
+using CharacterEngine.Interfaces;
 using Utilities;
 
 namespace Domain.Entities;
 
-public class Warrior : Hero, ISpecialSkillUser
+public class Warrior : Hero, ISpecialSkillUser, IPointsUser
 {
     private int stamina;
 
@@ -50,6 +51,17 @@ public class Warrior : Hero, ISpecialSkillUser
 
     public int DealPowerStrikeDamage()
     {
-        return 25; // Zadaje 25 obrażeń
+        return 25;
+    }
+
+    public override void PointsAdd()
+    {
+        Stamina += 5;
+        Stamina = (Stamina >= 20)? 20 : Stamina;
+    }
+
+    public override void ShowPoints()
+    {
+        Console.Write($"Stamina: {Stamina}");
     }
 }

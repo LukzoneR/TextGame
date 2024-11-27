@@ -7,13 +7,16 @@ public class Fight
     static Random random = new Random();
     public static void Combat(bool rand, Hero hero, string name="", int health=0, int power=0)
     {
+        //enemy 
         EnemyPictures enemyPictures= new EnemyPictures();
         string? enemyName = "";
         int enemyHealth = 0;
         int enemyPower = 0;
 
+        //player
         int damage = 0;
         int attack = 0;
+
 
         if (rand)
         {
@@ -30,7 +33,7 @@ public class Fight
             enemyPower = power;
         }
 
-        while (hero.Health > 0 && enemyHealth >= 0)
+        while (hero.Health > 0 && enemyHealth > 0)
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
@@ -59,11 +62,13 @@ public class Fight
             Console.WriteLine("|         (P)ower          |");
             Console.WriteLine("|  (R)un          (H)eal   |");
             Console.WriteLine("|--------------------------|");
-            Console.WriteLine($"Potions: {hero.Potion} | Health: {hero.Health} | Armor: {hero.Armor}");
+            Console.WriteLine($"Potions: {hero.Potion} | Health: {hero.Health} | Armor: {hero.Armor} | ");
+            hero.ShowPoints();
+            Console.WriteLine();
             Console.WriteLine("Choose an action:");
             Console.Write(" > ");
+            
             string? input = Console.ReadLine()?.ToLower().Trim();
-
             if (string.IsNullOrEmpty(input))
             {
                 Writing.Print("Please enter a valid action.");
@@ -73,7 +78,7 @@ public class Fight
 
             if (hero is Mag mag)
             {
-                mag.ProcessTurnEffects(); // Obsługa efektów IceShield
+                mag.ProcessTurnEffects();
             }
 
 
@@ -88,6 +93,7 @@ public class Fight
                     hero.Health -= damage;
                     enemyHealth -= attack;
                     Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
+                    hero.PointsAdd();
                     break;
 
                 case "d":
@@ -99,20 +105,18 @@ public class Fight
                     hero.Health -= damage;
                     enemyHealth -= attack;
                     Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
+                    hero.PointsAdd();
                     break;
 
                 case "p":
                 case "power":
                     hero.UseSpecialSkill();
-                    if (hero is Mag magHero)
+                    if (hero is Mag magHero && magHero.FireballDamage > 0)
                     {
-                        if (magHero.Mana >= 20)
-                        {
-                            attack = magHero.FireballDamage;
-                            enemyHealth -= attack; // Zadaje 20 obrażeń
-                            damage = 0;
-                            Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
-                        }
+                        attack = magHero.FireballDamage;
+                        enemyHealth -= attack;
+                        damage = 0;
+                        Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                     }
                     else if (hero is Warrior warriorHero)
                     {
@@ -120,7 +124,7 @@ public class Fight
                         {
                             warriorHero.Stamina -= 20;
                             attack = warriorHero.DealPowerStrikeDamage();
-                            damage = random.Next(hero.Armor, enemyPower + 1) - random.Next(1, hero.Armor); // Wojownik otrzymuje obrażenia
+                            damage = random.Next(hero.Armor, enemyPower + 1) - random.Next(1, hero.Armor);
                             damage = (damage < 0)? 0 : damage;
                             hero.Health -= damage;
                             enemyHealth -= attack;
@@ -144,6 +148,7 @@ public class Fight
                         damage = (damage < 0)? 0 : damage;
                         hero.Health -= damage;
                         Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
+                        hero.PointsAdd();
                         break;
                     } 
                     
@@ -155,6 +160,7 @@ public class Fight
                         hero.Health += 20;
                         hero.Potion--;
                         Writing.Print($"{hero.Name} got {20} health points.\n");
+                        hero.PointsAdd();
                     }
                     else
                     {

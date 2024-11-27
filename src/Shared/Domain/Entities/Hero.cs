@@ -1,6 +1,7 @@
 using CharacterEngine;
+using CharacterEngine.Interfaces;
 namespace Domain.Entities;
-public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay
+public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay, IPointsUser
 {
     public string? Name{ get; set; }
     public int Health{ get; set; }
@@ -25,6 +26,16 @@ public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay
     public virtual void UseSpecialSkill()
     {
         Console.WriteLine($"{Name} use special power!");
+    }
+
+    public virtual void ShowPoints()
+    {
+        Console.Write(" Points ");
+    }
+
+    public virtual void PointsAdd()
+    {
+        Console.Write("Gain Points");
     }
 
     public virtual void  DisplayStats()
