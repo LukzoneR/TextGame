@@ -3,7 +3,7 @@ namespace Methods;
 
 public class FightRound
 {
-     public string? HeroName { get; set; }
+    public string? HeroName { get; set; }
     public string? EnemyName { get; set; }
     public int HeroHealth { get; set; }
     public int EnemyHealth { get; set; }

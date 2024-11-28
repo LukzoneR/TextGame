@@ -8,8 +8,7 @@ public class Fight
     static Random random = new Random();
     public static void Combat(bool rand, Hero hero, string name="", int health=0, int power=0)
     {
-        List<FightRound> fightLog = new List<FightRound>();
-
+        StatsSaver statsSaver = new StatsSaver();
         //enemy 
         EnemyPictures enemyPictures= new EnemyPictures();
         string? enemyName = "";
@@ -98,7 +97,7 @@ public class Fight
                     Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                     hero.PointsAdd();
 
-                    fightLog.Add(new FightRound
+                    statsSaver.fightLog.Add(new FightRound
                     {
                         HeroName = hero.Name,
                         EnemyName = enemyName ?? "Unknown",
@@ -122,7 +121,7 @@ public class Fight
                     Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                     hero.PointsAdd();
 
-                    fightLog.Add(new FightRound
+                    statsSaver.fightLog.Add(new FightRound
                     {
                         HeroName = hero.Name,
                         EnemyName = enemyName ?? "Unknown",
@@ -159,7 +158,7 @@ public class Fight
                         }
                     }
 
-                    fightLog.Add(new FightRound
+                    statsSaver.fightLog.Add(new FightRound
                     {
                         HeroName = hero.Name,
                         EnemyName = enemyName ?? "Unknown",
@@ -188,7 +187,7 @@ public class Fight
                         Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                         hero.PointsAdd();
 
-                        fightLog.Add(new FightRound
+                        statsSaver.fightLog.Add(new FightRound
                         {
                             HeroName = hero.Name,
                             EnemyName = enemyName ?? "Unknown",
@@ -221,7 +220,7 @@ public class Fight
                         Writing.Print($"{hero.Name} lose " + damage + " health and deal " + attack + " damage\n");
                     }
 
-                    fightLog.Add(new FightRound
+                    statsSaver.fightLog.Add(new FightRound
                     {
                         HeroName = hero.Name,
                         EnemyName = enemyName ?? "Unknown",
@@ -240,6 +239,13 @@ public class Fight
             }
             Console.ReadKey();
 
+            
+
+            if(hero.Health <= 0 || enemyHealth <= 0)
+            {
+                statsSaver.Save();
+            }
+
             if (hero.Health <= 0)
             {
                 Writing.Print($"{hero.Name} was killed!");
@@ -250,27 +256,6 @@ public class Fight
             {
                 Writing.Print($"{enemyName} was killed!\n {hero.Name} won!");
                 break;
-            }
-
-            if(hero.Health <= 0 || enemyHealth <= 0)
-            {
-                
-                // Określenie ścieżki do folderu Files
-                string projectDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                string filesDirectory = Path.Combine(projectDirectory, "..", "..", "..", "Files");
-
-                // Tworzenie folderu Files, jeśli nie istnieje
-                if (!Directory.Exists(filesDirectory))
-                {
-                    Directory.CreateDirectory(filesDirectory);
-                }
-
-                // Ścieżka do pliku JSON
-                string filePath = Path.Combine(filesDirectory, "fight_log.json");
-
-                // Serializacja i zapis JSON
-                string json = JsonSerializer.Serialize(fightLog, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText(filePath, json);
             }
             
         }

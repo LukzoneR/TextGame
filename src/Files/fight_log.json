@@ -1,0 +1,52 @@
+[
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Ghoul",
+    "HeroHealth": 139,
+    "EnemyHealth": 42,
+    "Action": "Attack",
+    "DamageTaken": 11,
+    "DamageDealt": 12,
+    "Timestamp": "2024-11-28T14:56:08.265133+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Ghoul",
+    "HeroHealth": 124,
+    "EnemyHealth": 32,
+    "Action": "Attack",
+    "DamageTaken": 15,
+    "DamageDealt": 10,
+    "Timestamp": "2024-11-28T14:56:11.1668014+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Ghoul",
+    "HeroHealth": 116,
+    "EnemyHealth": 21,
+    "Action": "Attack",
+    "DamageTaken": 8,
+    "DamageDealt": 11,
+    "Timestamp": "2024-11-28T14:56:13.2141708+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Ghoul",
+    "HeroHealth": 97,
+    "EnemyHealth": 11,
+    "Action": "Attack",
+    "DamageTaken": 19,
+    "DamageDealt": 10,
+    "Timestamp": "2024-11-28T14:56:14.7608092+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Ghoul",
+    "HeroHealth": 93,
+    "EnemyHealth": -2,
+    "Action": "Attack",
+    "DamageTaken": 4,
+    "DamageDealt": 13,
+    "Timestamp": "2024-11-28T14:56:16.2605893+01:00"
+  }
+]

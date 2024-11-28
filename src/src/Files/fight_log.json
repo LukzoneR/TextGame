@@ -1,0 +1,82 @@
+[
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 140,
+    "EnemyHealth": 30,
+    "Action": "Attack",
+    "DamageTaken": 10,
+    "DamageDealt": 10,
+    "Timestamp": "2024-11-28T14:42:12.3163531+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 140,
+    "EnemyHealth": 28,
+    "Action": "Defend",
+    "DamageTaken": 0,
+    "DamageDealt": 2,
+    "Timestamp": "2024-11-28T14:42:14.9547544+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 138,
+    "EnemyHealth": 19,
+    "Action": "Attack",
+    "DamageTaken": 2,
+    "DamageDealt": 9,
+    "Timestamp": "2024-11-28T14:42:16.5012791+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 138,
+    "EnemyHealth": 15,
+    "Action": "Defend",
+    "DamageTaken": 0,
+    "DamageDealt": 4,
+    "Timestamp": "2024-11-28T14:42:18.1260591+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 128,
+    "EnemyHealth": 9,
+    "Action": "Attack",
+    "DamageTaken": 10,
+    "DamageDealt": 6,
+    "Timestamp": "2024-11-28T14:42:19.7509393+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 128,
+    "EnemyHealth": 8,
+    "Action": "Defend",
+    "DamageTaken": 0,
+    "DamageDealt": 1,
+    "Timestamp": "2024-11-28T14:42:21.5319616+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 123,
+    "EnemyHealth": 1,
+    "Action": "Attack",
+    "DamageTaken": 5,
+    "DamageDealt": 7,
+    "Timestamp": "2024-11-28T14:42:22.9223707+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Goblin",
+    "HeroHealth": 123,
+    "EnemyHealth": -2,
+    "Action": "Defend",
+    "DamageTaken": 0,
+    "DamageDealt": 3,
+    "Timestamp": "2024-11-28T14:42:24.7971144+01:00"
+  }
+]
