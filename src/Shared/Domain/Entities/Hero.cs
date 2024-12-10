@@ -1,7 +1,7 @@
 using CharacterEngine;
 using CharacterEngine.Interfaces;
 namespace Domain.Entities;
-public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay, IPointsUser
+public class Hero : ICharacter, ISpecialSkillUser, IPointsUser
 {
     public string? Name{ get; set; }
     public int Health{ get; set; }
