@@ -16,7 +16,7 @@ public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay, IPointsUser
     {
         Health = 100;
         Damage = 5;
-        Gold = 0;
+        Gold = 1000;
         Armor = 5;
         Weapon = "Basic Sword";
         WeaponValue = 5;
@@ -40,7 +40,18 @@ public class Hero : ICharacter, ISpecialSkillUser, IStatsDisplay, IPointsUser
 
     public virtual void  DisplayStats()
     {
-        Console.WriteLine($"Name: {Name}, Health: {Health}, Damage: {Damage}, Gold: {Gold}, Armor: {Armor}, Weapon: {Weapon}");
+        Console.WriteLine($"            {Name} Stats           ");
+        Console.WriteLine("------------------------------------");
+        Console.WriteLine("|                                  ");
+        Console.WriteLine($"|            Gold: ${Gold}         ");
+        Console.WriteLine("|                                  ");
+        Console.WriteLine($"|          Weapon: {Weapon}        ");
+        Console.WriteLine("|                                  ");
+        Console.WriteLine($"|    WeaponDamage: {WeaponValue}   ");
+        Console.WriteLine("|                                  ");
+        Console.WriteLine($"|           Armor: {Armor}         ");
+        Console.WriteLine("|                                  ");
+        Console.WriteLine("------------------------------------");
     }
 
 }

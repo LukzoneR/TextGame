@@ -76,6 +76,8 @@ class Program
         }while(!loopStop);
 
         Fight.Combat(true, hero);
+        Shop.LoadShop(hero);
+        Fight.Combat(true, hero);
         
     }
 }
