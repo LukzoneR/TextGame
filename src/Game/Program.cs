@@ -14,6 +14,7 @@ class Program
     }
     static void Start()
     {
+        PuzzleGame puzzle = new PuzzleGame();
         StoryPrint storyPrint= new StoryPrint();
         Strings strings= new Strings();
         Intro intro= new Intro();
@@ -23,7 +24,8 @@ class Program
         Console.Write(" > ");
         hero.Name = Console.ReadLine();
 
-        if(hero.Name == ""){
+        if(hero.Name == "")
+        {
             Writing.Print(strings.text[1]);
             Console.Write(" > ");
             hero.Name = Console.ReadLine();
@@ -74,6 +76,9 @@ class Program
                     break;
             }
         }while(!loopStop);
+
+        
+        puzzle.Play();
 
         Fight.Combat(false, hero, "Dragon", 100, 40);
         Shop.LoadShop(hero);
