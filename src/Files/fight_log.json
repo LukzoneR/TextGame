@@ -1,142 +1,22 @@
 [
   {
     "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 119,
-    "EnemyHealth": 89,
-    "Action": "Attack",
-    "DamageTaken": 31,
-    "DamageDealt": 11,
-    "Timestamp": "2024-12-11T13:31:28.8692258+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 83,
-    "EnemyHealth": 80,
-    "Action": "Attack",
-    "DamageTaken": 36,
-    "DamageDealt": 9,
-    "Timestamp": "2024-12-11T13:31:31.8721181+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 64,
-    "EnemyHealth": 72,
-    "Action": "Attack",
-    "DamageTaken": 19,
-    "DamageDealt": 8,
-    "Timestamp": "2024-12-11T13:31:33.9312081+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 59,
-    "EnemyHealth": 67,
-    "Action": "Attack",
-    "DamageTaken": 5,
-    "DamageDealt": 5,
-    "Timestamp": "2024-12-11T13:31:38.2824821+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 79,
-    "EnemyHealth": 67,
-    "Action": "Attack",
-    "DamageTaken": 5,
-    "DamageDealt": 5,
-    "Timestamp": "2024-12-11T13:31:40.7065919+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 99,
-    "EnemyHealth": 67,
-    "Action": "Attack",
-    "DamageTaken": 5,
-    "DamageDealt": 5,
-    "Timestamp": "2024-12-11T13:31:42.7836878+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 92,
-    "EnemyHealth": 42,
+    "EnemyName": "Goblin",
+    "HeroHealth": 5,
+    "EnemyHealth": 41,
     "Action": "Power",
-    "DamageTaken": 7,
-    "DamageDealt": 25,
-    "Timestamp": "2024-12-11T13:31:47.5703214+01:00"
+    "DamageTaken": 0,
+    "DamageDealt": 0,
+    "Timestamp": "2024-12-11T16:41:46.3509357+01:00"
   },
   {
     "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 88,
-    "EnemyHealth": 31,
+    "EnemyName": "Goblin",
+    "HeroHealth": -5,
+    "EnemyHealth": 33,
     "Action": "Attack",
-    "DamageTaken": 4,
-    "DamageDealt": 11,
-    "Timestamp": "2024-12-11T13:31:52.0421908+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 58,
-    "EnemyHealth": 24,
-    "Action": "Attack",
-    "DamageTaken": 30,
-    "DamageDealt": 7,
-    "Timestamp": "2024-12-11T13:31:55.5667043+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 39,
-    "EnemyHealth": 16,
-    "Action": "Attack",
-    "DamageTaken": 19,
+    "DamageTaken": 10,
     "DamageDealt": 8,
-    "Timestamp": "2024-12-11T13:31:57.8413011+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 36,
-    "EnemyHealth": 11,
-    "Action": "Attack",
-    "DamageTaken": 3,
-    "DamageDealt": 5,
-    "Timestamp": "2024-12-11T13:32:02.776418+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 56,
-    "EnemyHealth": 11,
-    "Action": "Attack",
-    "DamageTaken": 3,
-    "DamageDealt": 5,
-    "Timestamp": "2024-12-11T13:32:11.1747554+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 39,
-    "EnemyHealth": 2,
-    "Action": "Attack",
-    "DamageTaken": 17,
-    "DamageDealt": 9,
-    "Timestamp": "2024-12-11T13:32:13.3352842+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 24,
-    "EnemyHealth": -5,
-    "Action": "Attack",
-    "DamageTaken": 15,
-    "DamageDealt": 7,
-    "Timestamp": "2024-12-11T13:32:16.5872462+01:00"
+    "Timestamp": "2024-12-11T16:41:52.8197879+01:00"
   }
 ]
