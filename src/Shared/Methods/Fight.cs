@@ -53,6 +53,12 @@ public class Fight
                 case "Orc":
                     Console.Write(enemyPictures.Orc);
                     break;
+                case "Skeleton":
+                    Console.Write(enemyPictures.Skeleton);
+                    break;
+                case "Dragon":
+                    Console.Write(enemyPictures.Dragon);
+                    break;    
             }
             Console.ResetColor();
             Console.WriteLine();
@@ -248,13 +254,21 @@ public class Fight
 
             if (hero.Health <= 0)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Writing.Print($"{hero.Name} was killed!");
+                Console.ResetColor();
                 break;
             }
 
             if(enemyHealth <= 0)
             {
-                Writing.Print($"{enemyName} was killed!\n {hero.Name} won!");
+                int gold = random.Next(40, 70);
+                hero.Gold += gold;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Writing.Print($"{enemyName} was killed!\n {hero.Name} won!\n");
+                Writing.Print($"You earned {gold}$");
+                Console.ResetColor();
+                Console.ReadKey();
                 break;
             }
             

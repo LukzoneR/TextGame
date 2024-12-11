@@ -22,7 +22,6 @@ public class StatsSaver
             string json = JsonSerializer.Serialize(fightLog, new JsonSerializerOptions { WriteIndented = true });
             File.WriteAllText(filePath, json);
 
-            Console.WriteLine($"Log walki zapisany do: {filePath}");
         }
         catch (Exception ex)
         {

@@ -22,7 +22,7 @@ public class Shop
             weaponCost = 100 + 10 * hero.WeaponValue;
 
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("         Shop         ");
             Console.WriteLine("----------------------");
             Console.WriteLine("|                    ");
@@ -79,11 +79,11 @@ public class Shop
             }
             else if (item == "armor")
             {
-                hero.Armor ++;
+                hero.Armor += 2;
             }
             else if(item == "weapon")
             {
-                hero.WeaponValue ++;
+                hero.WeaponValue += 2;
             }
 
             hero.Gold -= price;

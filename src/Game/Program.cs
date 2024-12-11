@@ -75,7 +75,7 @@ class Program
             }
         }while(!loopStop);
 
-        Fight.Combat(true, hero);
+        Fight.Combat(false, hero, "Dragon", 100, 40);
         Shop.LoadShop(hero);
         Fight.Combat(true, hero);
         
