@@ -12,6 +12,7 @@ public class Shop
 
     public static void RunShop(Hero hero)
     {
+        EnemyPictures enemyPictures= new EnemyPictures();
         int potionCost = 200;
         int armorCost;
         int weaponCost;
@@ -22,6 +23,9 @@ public class Shop
             weaponCost = 100 + 10 * hero.WeaponValue;
 
             Console.Clear();
+            Console.Write(enemyPictures.Dealer);
+            Console.WriteLine();
+            Writing.Print("Look at my commodity\n\n\n");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("         Shop         ");
             Console.WriteLine("----------------------");
