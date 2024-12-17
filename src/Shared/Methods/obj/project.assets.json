@@ -63,40 +63,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcin\\.nuget\\packages\\": {}
+    "C:\\Users\\marci\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
+      "projectUniqueName": "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
       "projectName": "Methods",
-      "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
-      "packagesPath": "C:\\Users\\marcin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Methods\\obj\\",
+      "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\Methods.csproj",
+      "packagesPath": "C:\\Users\\marci\\.nuget\\packages\\",
+      "outputPath": "D:\\TextGame\\TextGame\\src\\Shared\\Methods\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
-              "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj"
+            "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj": {
+              "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\CharacterEngine\\CharacterEngine.csproj"
             },
-            "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
+            "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
-              "projectPath": "C:\\Users\\marcin\\Documents\\GitHub\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj"
+            "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\TextGame\\TextGame\\src\\Shared\\Utilities\\Utilities.csproj"
             }
           }
         }

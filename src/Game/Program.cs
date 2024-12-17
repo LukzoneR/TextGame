@@ -113,8 +113,73 @@ class Program
         Console.Clear();
         storyPrint.Write(strings.text[15]);
         Shop.LoadShop(hero);
-        
+        Console.Clear();
+
+        storyPrint.Write(strings.text[16]);
+        storyPrint.Write(strings.text[17]);
         puzzle.Play();
+        Console.Clear();
+        storyPrint.Write(strings.text[18]);
+        storyPrint.Write(strings.text[19]);
+        Shop.LoadShop(hero, true);
+        Console.Clear();
+        storyPrint.Write(strings.text[20]);
+        storyPrint.Write(strings.text[21]);
+        Console.Clear();
+        Writing.Print(strings.text[22]);
+        Console.Write(" > ");
+        string? choice3;
+        bool loopStop3 = false;
+        do
+        {
+            choice3 = Console.ReadLine()?.Trim();
+
+            switch(choice3)
+            {
+                case "1":
+                    storyPrint.Write(strings.text[23]);
+                    storyPrint.Write(strings.text[24]);
+                    Fight.Combat(true, hero);
+                    Fight.Combat(true, hero);
+                    storyPrint.Write(strings.text[25]);
+                    storyPrint.Write(strings.text[26]);
+                    storyPrint.Write(strings.text[27]);
+                    hero.Gold += 200;
+                    Shop.LoadShop(hero);
+                    break;
+                case "2":
+                    storyPrint.Write(strings.text[28]);
+                    storyPrint.Write(strings.text[29]);
+                    storyPrint.Write(strings.text[30]);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    storyPrint.Write(strings.text[31]);
+                    Console.ResetColor();
+                    Console.Clear();
+                    Console.Write(" > ");
+                    string? choice4;
+                    choice4 = Console.ReadLine()?.Trim();
+                    
+                    if(choice4 != hero.Name) {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        storyPrint.Write(strings.text[33]);
+                        Console.ResetColor();
+                        Fight.Combat(false, hero, "Skeleton", 35, 30);
+                    }else{
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        storyPrint.Write(strings.text[32]);
+                        Console.ResetColor();
+                        hero.Gold += 50;
+                    }
+                    break;
+                default:
+                    Writing.Print("Choose one of two below\n");
+                    Console.Write(" > ");
+                    break;
+            }
+        }while(!loopStop3);
+
+
+        
         Fight.Combat(false, hero, "Dragon", 100, 40);
         Shop.LoadShop(hero);
         Fight.Combat(true, hero);

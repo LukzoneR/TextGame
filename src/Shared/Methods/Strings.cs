@@ -19,6 +19,26 @@ public class Strings
    "Your first encounter has just started, try to survive...\n",
    "There is danger everywhere in dark forest, you can't escape from it\n",
    "Beast in the bushes smells you, get ready for the fight...\n",
-   "Not bad my friend.\nI would like to introduce you Mike.\nHe has the best stuff in the forest, take a look\n"
+   "Not bad my friend.\nI would like to introduce you Mike.\nHe has the best stuff in the forest, take a look\n",
+   "Having survived the encounter—whether by blade or spell—you come across an ancient stone door carved into the base of a massive tree.\n",
+   "On the door you can see old wooden puzzle, maybe solving it can help you open the door\n",
+   "Behind the door there is only darkness, you can't see anything\n",
+   "Ask Mike, he might helps you\n",
+   "Alright! Now you can see everything clearly\n",
+   "There are 2 paths in front of you. You have to choose one\n",
+   "(1) Left\n(2) Right\n",
+   //left
+   "It keeps getting darker, your torch is not enough for this\n",
+   "Some creatures are coming to you, take your weapon in hand\n",
+   "Great! You defeated them\n",
+   "Keep going there is something glowing in dark\n",
+   "It's treasure chest, take everything and get out of here\n+200$\n",
+   //right
+   "Ohh there is something behind the rock!\n",
+   "It's Skeleton!\n",
+   "He has a question for you\n",
+   "Ahh you don't know me, but I know you give me a reason why I shouldn't kill you.\nTell me, what is your name?\n",
+   "good answer, you didn't lie so you can go, also I have something for you\n+50$\n",
+   "I said, I know you and I won't let you go!",
    ];
 }

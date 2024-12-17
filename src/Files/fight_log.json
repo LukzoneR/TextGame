@@ -1,32 +1,42 @@
 [
   {
-    "HeroName": "mar",
+    "HeroName": "marcin",
     "EnemyName": "Orc",
-    "HeroHealth": 141,
-    "EnemyHealth": 15,
+    "HeroHealth": 100,
+    "EnemyHealth": 20,
     "Action": "Power",
-    "DamageTaken": 9,
-    "DamageDealt": 25,
-    "Timestamp": "2024-12-12T15:09:47.9122993+01:00"
+    "DamageTaken": 0,
+    "DamageDealt": 20,
+    "Timestamp": "2024-12-17T17:19:58.88778+01:00"
   },
   {
-    "HeroName": "mar",
+    "HeroName": "marcin",
     "EnemyName": "Orc",
-    "HeroHealth": 135,
-    "EnemyHealth": 8,
+    "HeroHealth": 96,
+    "EnemyHealth": 9,
     "Action": "Attack",
-    "DamageTaken": 6,
-    "DamageDealt": 7,
-    "Timestamp": "2024-12-12T15:09:51.4277157+01:00"
+    "DamageTaken": 4,
+    "DamageDealt": 11,
+    "Timestamp": "2024-12-17T17:20:02.3426147+01:00"
   },
   {
-    "HeroName": "mar",
+    "HeroName": "marcin",
     "EnemyName": "Orc",
-    "HeroHealth": 125,
-    "EnemyHealth": -1,
+    "HeroHealth": 89,
+    "EnemyHealth": 1,
     "Action": "Attack",
-    "DamageTaken": 10,
-    "DamageDealt": 9,
-    "Timestamp": "2024-12-12T15:09:53.7863917+01:00"
+    "DamageTaken": 7,
+    "DamageDealt": 8,
+    "Timestamp": "2024-12-17T17:20:04.0759798+01:00"
+  },
+  {
+    "HeroName": "marcin",
+    "EnemyName": "Orc",
+    "HeroHealth": 76,
+    "EnemyHealth": -10,
+    "Action": "Attack",
+    "DamageTaken": 13,
+    "DamageDealt": 11,
+    "Timestamp": "2024-12-17T17:20:06.4216613+01:00"
   }
 ]
