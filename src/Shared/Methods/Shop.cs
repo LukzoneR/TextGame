@@ -26,7 +26,8 @@ public class Shop
         Writing.Print("Look at my commodity\n\n\n");
         Console.ReadKey();
 
-        if(isItem){
+        if(isItem)
+        {
             while (true)
             {
                 armorCost = 100 + 10 * hero.Armor;
@@ -85,7 +86,9 @@ public class Shop
                         break;
                 }
             }
-        }else{
+        }
+        else
+        {
             while (true)
             {
                 armorCost = 100 + 10 * hero.Armor;
@@ -143,17 +146,11 @@ public class Shop
         if(hero.Gold >= price)
         {
             if(item == "potion")
-            {
                 hero.Potion ++;
-            }
             else if (item == "armor")
-            {
                 hero.Armor += 2;
-            }
             else if(item == "weapon")
-            {
                 hero.WeaponValue += 2;
-            }
 
             hero.Gold -= price;
         }

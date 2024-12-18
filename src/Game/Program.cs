@@ -74,7 +74,9 @@ class Program
                     Console.Write(" > ");
                     break;
             }
-        }while(!loopStop);
+        }
+        while(!loopStop);
+
         Console.Clear();
         storyPrint.Write(strings.text[7]);
         storyPrint.Write(strings.text[8]);
@@ -109,7 +111,9 @@ class Program
                     Console.Write(" > ");
                     break;
             }
-        }while(!loopStop2);
+        }
+        while(!loopStop2);
+
         Console.Clear();
         storyPrint.Write(strings.text[15]);
         Shop.LoadShop(hero);
@@ -159,12 +163,15 @@ class Program
                     string? choice4;
                     choice4 = Console.ReadLine()?.Trim();
                     
-                    if(choice4 != hero.Name) {
+                    if(choice4 != hero.Name)
+                    {
                         Console.ForegroundColor = ConsoleColor.Red;
                         storyPrint.Write(strings.text[33]);
                         Console.ResetColor();
                         Fight.Combat(false, hero, "Skeleton", 35, 30);
-                    }else{
+                    }
+                    else
+                    {
                         Console.ForegroundColor = ConsoleColor.Red;
                         storyPrint.Write(strings.text[32]);
                         Console.ResetColor();
@@ -176,7 +183,8 @@ class Program
                     Console.Write(" > ");
                     break;
             }
-        }while(!loopStop3);
+        }
+        while(!loopStop3);
 
 
         

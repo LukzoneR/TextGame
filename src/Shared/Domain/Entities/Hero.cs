@@ -51,7 +51,7 @@ public class Hero : ICharacter, ISpecialSkillUser, IPointsUser
         Console.WriteLine("|                                  ");
         Console.WriteLine($"|           Armor: {Armor}         ");
         Console.WriteLine("|                                  ");
-        Console.WriteLine($"|           Potions: {Potion}         ");
+        Console.WriteLine($"|           Potions: {Potion}      ");
         Console.WriteLine("|                                  ");
         Console.WriteLine("------------------------------------");
     }

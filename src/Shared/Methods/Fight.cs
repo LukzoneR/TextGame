@@ -1,6 +1,5 @@
 using Domain.Entities;
 using Utilities;
-using System.Text.Json;
 namespace Methods;
 
 public class Fight
@@ -9,6 +8,7 @@ public class Fight
     public static void Combat(bool rand, Hero hero, string name="", int health=0, int power=0)
     {
         StatsSaver statsSaver = new StatsSaver();
+
         //enemy 
         EnemyPictures enemyPictures= new EnemyPictures();
         string? enemyName = "";
@@ -270,8 +270,7 @@ public class Fight
                 Console.ResetColor();
                 Console.ReadKey();
                 break;
-            }
-            
+            }  
         }
     }
 }
