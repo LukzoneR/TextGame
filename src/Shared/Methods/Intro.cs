@@ -63,7 +63,7 @@ public class Intro
 
         Console.WriteLine();
         Console.ResetColor();
-        Thread.Sleep(3000);
+        Thread.Sleep(5000);
         Console.Clear();
     }
 }

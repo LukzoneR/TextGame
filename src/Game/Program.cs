@@ -18,8 +18,10 @@ class Program
         StoryPrint storyPrint= new StoryPrint();
         Strings strings= new Strings();
         Intro intro= new Intro();
-        intro.ArtPrint();
+        Title title= new Title();
         
+        title.ArtPrint();
+        Console.Clear();
         Writing.Print(strings.text[0]);
         Console.Write(" > ");
         hero.Name = Console.ReadLine();
@@ -145,18 +147,27 @@ class Program
                     storyPrint.Write(strings.text[24]);
                     Fight.Combat(true, hero);
                     Fight.Combat(true, hero);
+                    Console.Clear();
                     storyPrint.Write(strings.text[25]);
                     storyPrint.Write(strings.text[26]);
                     storyPrint.Write(strings.text[27]);
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Writing.Print(strings.text[28]);
+                    storyPrint.Write("+ 200$");
+                    Console.ResetColor();
                     hero.Gold += 200;
                     Shop.LoadShop(hero);
-                    break;
-                case "2":
-                    storyPrint.Write(strings.text[28]);
                     storyPrint.Write(strings.text[29]);
                     storyPrint.Write(strings.text[30]);
-                    Console.ForegroundColor = ConsoleColor.Red;
                     storyPrint.Write(strings.text[31]);
+                    storyPrint.Write(strings.text[32]);
+                    break;
+                case "2":
+                    storyPrint.Write(strings.text[33]);
+                    storyPrint.Write(strings.text[34]);
+                    storyPrint.Write(strings.text[35]);
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    storyPrint.Write(strings.text[36]);
                     Console.ResetColor();
                     Console.Clear();
                     Console.Write(" > ");
@@ -166,17 +177,27 @@ class Program
                     if(choice4 != hero.Name)
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        storyPrint.Write(strings.text[33]);
+                        storyPrint.Write(strings.text[39]);
                         Console.ResetColor();
                         Fight.Combat(false, hero, "Skeleton", 35, 30);
+                        Shop.LoadShop(hero);
                     }
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        storyPrint.Write(strings.text[32]);
+                        storyPrint.Write(strings.text[37]);
+                        storyPrint.Write(strings.text[38]);
                         Console.ResetColor();
                         hero.Gold += 50;
+                        Shop.LoadShop(hero);
                     }
+
+                    Console.Clear();
+                    storyPrint.Write(strings.text[40]);
+                    storyPrint.Write(strings.text[41]);
+                    storyPrint.Write(strings.text[42]);
+                    storyPrint.Write(strings.text[43]);
+                    loopStop3 = true;
                     break;
                 default:
                     Writing.Print("Choose one of two below\n");
@@ -186,11 +207,21 @@ class Program
         }
         while(!loopStop3);
 
-
-        
         Fight.Combat(false, hero, "Dragon", 100, 40);
-        Shop.LoadShop(hero);
-        Fight.Combat(true, hero);
-        
+        Console.Clear();
+
+        if(hero.Health <= 0)
+        {
+            storyPrint.Write(strings.text[44]);
+        }
+        else
+        {
+            storyPrint.Write(strings.text[45]);
+        }
+        Console.Clear();
+        Writing.Print(strings.text[46] + " . . . \n", 200);
+        intro.ArtPrint();
+
+        return;
     }
 }
