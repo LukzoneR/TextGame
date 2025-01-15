@@ -4,16 +4,16 @@ namespace Methods;
 public class Strings
 {
     public List<string> text = [
-   "Welcome to dark forest, please enter your hero name:\n", //0
+   "Please enter your hero name:\n", //0
    "Don't play with me. Enter your name!:\n", //1
-   "Alright your name is Marian\n", //2
+   "If you don't want to tell your name, I will call you soldier\n", //2
    "In the distant future, humanity has not survived. Cataclysms, wars and magic that returned after centuries of absence led the world to collapse.\nIn the ruins of ancient civilizations,\na handful of survivors fight for survival in a world dominated by demonic beings and corrupt, dark deities.", //3
    "Your mission is to survive in this harsh world, gather strength and unite the remnants of humanity to face the final threat.", //4
    "You are a mysterious figure who woke up with no memories of his past, in the heart of a dark forest full of beasts and mysterious ruins.\nOver time, you discover that your origins are crucial to the fate of the world.", //5
    "Now it is time to choose your way.\nChoose who are you want to be:\n(1) Mage – Draw your strength from arcane knowledge, harnessing the power of the elements.\n(2) Warrior – Rely on your physical prowess and mastery of weapons to crush your enemies.\n", //6
    "You declare your choice, and the path ahead changes accordingly, twisting into a reality shaped by your decision.\nThe forest around you grows denser, the shadows deeper.\nStrange runes flicker in the air, and you hear the clinking of chains from unseen prisoners.\n", //7
    "Suddenly, a battered signpost comes into view, its wood rotting and splintered.\n Scrawled in dried blood, it reads:", //8
-   "BEWARE THE GUARDIAN ONLY THE WORTHY SHALL PASS", //9
+   "BEWARE THE GUARDIAN, ONLY THE WORTHY SHALL PASS", //9
    "Before you can ponder its meaning, a low growl emerges from the shadows.\nA pair of glowing red eyes fixate on you as a monstrous creature steps into the clearing.\nIt towers above you, its grotesque form a twisted amalgamation of human and beast. He's name is Orc.\n", //10
    "You have to think quickly:\n(1) Fight - Stand your ground and confront the beast, testing your chosen path's abilities in first encounter\n(2) Flee - Take a chance to find another route, though the forest may hold dangers of its own.\n", //11
    "Your first encounter has just started, try to survive...\n", //12
@@ -42,16 +42,16 @@ public class Strings
    "Ohh there is something behind the rock!\n", //33
    "It's Skeleton!\n", //34
    "He has a question for you\n", //35
-   "Ahh you don't know me, but I know you give me a reason why I shouldn't kill you.\nTell me, what is your name?\n", //36
+   "Ahh you don't know me, but I know you, give me a reason why I shouldn't kill you.\nTell me, what is your name?\n", //36
    "good answer, you didn't lie so you can go, also I have something for you\n", //37
    "+ 50$\n", //38
-   "I said, I know you and I won't let you go!", //39
+   "I said, I know you, but you lied, I won't let you go!", //39
    "After speaking with the skeleton, you start walking further, but you notice something is following you.", //40
    "Every step you take in the dark forest seems to draw the shadow closer to you.", //41
    "Eventually, you reach a clearing. There is no way to run anymore.", //42
    "Standing before you is the Guardian of Darkness, the forest's sentinel, whom you must defeat to move forward.", //43
    //next
-   "Are you sure?\n", //44
+   "It's not the end\n", //44
    "It's just the beggining\n", //45
    "To be continued" //46
    ];

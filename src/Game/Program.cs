@@ -34,7 +34,7 @@ class Program
             if(hero.Name == "")
             {
                 Writing.Print(strings.text[2]);
-                hero.Name = "Marian";
+                hero.Name = "soldier";
             }
         }
   
