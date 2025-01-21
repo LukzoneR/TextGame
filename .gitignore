@@ -484,5 +484,15 @@ $RECYCLE.BIN/
 *.swp
 
 
-bin/
-obj/
+/bin
+/obj
+/src/Game/obj
+/src/Shared/Domain/bin
+/src/Shared/Domain/obj
+/src/Shared/Methods/obj
+/src/Shared/Utilities/obj
+/src/Game/bin
+/src/Shared/CharacterEngine/bin
+/src/Shared/CharacterEngine/obj
+/src/Shared/Domain/bin
+/src/Shared/Utilities/obj
