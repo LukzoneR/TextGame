@@ -19,11 +19,11 @@ public class Strings
    "Your first encounter has just started, try to survive...\n", //12
    "There is danger everywhere in dark forest, you can't escape from it\n", //13
    "Beast in the bushes smells you, get ready for the fight...\n", //14
-   "Not bad my friend.\nI would like to introduce you Mike.\nHe has the best stuff in the forest, take a look\n", //15
+   "Not bad my friend.\nI would like to introduce you Malkol.\nHe has the best stuff in the forest, take a look\n", //15
    "Having survived the encounter—whether by blade or spell—you come across an ancient stone door carved into the base of a massive tree.\n", //16
    "On the door you can see old wooden puzzle, maybe solving it can help you open the door\n", //17
    "Behind the door there is only darkness, you can't see anything\n", //18
-   "Ask Mike, he might helps you\n", //19
+   "Ask Malkol, he might helps you\n", //19
    "Alright! Now you can see everything clearly\n", //20
    "There are 2 paths in front of you. You have to choose one\n", //21
    "(1) Left\n(2) Right\n", //22

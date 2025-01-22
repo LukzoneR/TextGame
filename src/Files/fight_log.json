@@ -1,52 +1,52 @@
 [
   {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
+    "HeroName": "a",
+    "EnemyName": "Orc",
+    "HeroHealth": 59,
+    "EnemyHealth": 59,
+    "Action": "Attack",
+    "DamageTaken": 21,
+    "DamageDealt": 11,
+    "Timestamp": "2025-01-22T21:06:25.6495145+01:00"
+  },
+  {
+    "HeroName": "a",
+    "EnemyName": "Orc",
     "HeroHealth": 57,
-    "EnemyHealth": 86,
-    "Action": "Attack",
-    "DamageTaken": 4,
-    "DamageDealt": 14,
-    "Timestamp": "2025-01-15T13:33:31.951176+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 44,
-    "EnemyHealth": 79,
-    "Action": "Attack",
-    "DamageTaken": 13,
-    "DamageDealt": 7,
-    "Timestamp": "2025-01-15T13:33:36.5291063+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 22,
-    "EnemyHealth": 65,
-    "Action": "Attack",
-    "DamageTaken": 22,
-    "DamageDealt": 14,
-    "Timestamp": "2025-01-15T13:33:39.4709835+01:00"
-  },
-  {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": 8,
     "EnemyHealth": 50,
     "Action": "Attack",
-    "DamageTaken": 14,
-    "DamageDealt": 15,
-    "Timestamp": "2025-01-15T13:33:41.892819+01:00"
+    "DamageTaken": 2,
+    "DamageDealt": 9,
+    "Timestamp": "2025-01-22T21:06:27.1087733+01:00"
   },
   {
-    "HeroName": "marcin",
-    "EnemyName": "Dragon",
-    "HeroHealth": -10,
-    "EnemyHealth": 40,
+    "HeroName": "a",
+    "EnemyName": "Orc",
+    "HeroHealth": 30,
+    "EnemyHealth": 39,
     "Action": "Attack",
-    "DamageTaken": 18,
+    "DamageTaken": 27,
+    "DamageDealt": 11,
+    "Timestamp": "2025-01-22T21:06:28.3505705+01:00"
+  },
+  {
+    "HeroName": "a",
+    "EnemyName": "Orc",
+    "HeroHealth": 7,
+    "EnemyHealth": 29,
+    "Action": "Attack",
+    "DamageTaken": 23,
     "DamageDealt": 10,
-    "Timestamp": "2025-01-15T13:33:44.8263242+01:00"
+    "Timestamp": "2025-01-22T21:06:29.473549+01:00"
+  },
+  {
+    "HeroName": "a",
+    "EnemyName": "Orc",
+    "HeroHealth": -20,
+    "EnemyHealth": 15,
+    "Action": "Attack",
+    "DamageTaken": 27,
+    "DamageDealt": 14,
+    "Timestamp": "2025-01-22T21:06:30.7158423+01:00"
   }
 ]

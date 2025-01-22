@@ -152,7 +152,7 @@ class Program
                     storyPrint.Write(strings.text[26]);
                     storyPrint.Write(strings.text[27]);
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Writing.Print(strings.text[28]);
+                    storyPrint.Write(strings.text[28]);
                     storyPrint.Write("+ 200$");
                     Console.ResetColor();
                     hero.Gold += 200;
@@ -161,6 +161,7 @@ class Program
                     storyPrint.Write(strings.text[30]);
                     storyPrint.Write(strings.text[31]);
                     storyPrint.Write(strings.text[32]);
+                    loopStop3 = true;
                     break;
                 case "2":
                     storyPrint.Write(strings.text[33]);

@@ -34,3 +34,15 @@ c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\ob
 c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\refint\CharacterEngine.dll
 c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.pdb
 c:\Users\marcin\Documents\GitHub\TextGame\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\ref\CharacterEngine.dll
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.deps.json
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.dll
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\bin\Debug\net8.0\CharacterEngine.pdb
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.GeneratedMSBuildEditorConfig.editorconfig
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.AssemblyInfoInputs.cache
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.AssemblyInfo.cs
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.csproj.CoreCompileInputs.cache
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.sourcelink.json
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.dll
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\refint\CharacterEngine.dll
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\CharacterEngine.pdb
+D:\gitProjects\TextGame\src\Shared\CharacterEngine\obj\Debug\net8.0\ref\CharacterEngine.dll

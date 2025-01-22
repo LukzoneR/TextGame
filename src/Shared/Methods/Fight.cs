@@ -257,6 +257,7 @@ public class Fight
                 Console.ForegroundColor = ConsoleColor.Red;
                 Writing.Print($"{hero.Name} was killed!");
                 Console.ResetColor();
+                Environment.Exit(0);
                 break;
             }
 

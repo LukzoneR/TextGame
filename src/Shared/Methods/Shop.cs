@@ -15,7 +15,7 @@ public class Shop
         int potionCost = 200;
 
         Console.Clear();
-        Console.Write(enemyPictures.Mike);
+        Console.Write(enemyPictures.Malkol);
         Console.WriteLine();
         Writing.Print("Look at my commodity\n\n\n");
         Console.ReadKey();
