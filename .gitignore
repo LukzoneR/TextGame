@@ -496,3 +496,9 @@ $RECYCLE.BIN/
 /src/Shared/CharacterEngine/obj
 /src/Shared/Domain/bin
 /src/Shared/Utilities/obj
+/src/Game/bin/Debug/net8.0
+/src/Shared/CharacterEngine/obj/Debug/net8.0
+/src/Shared/Domain/bin
+/src/Shared/Domain/obj
+/src/Shared/Utilities/obj
+/src/Game/bin
