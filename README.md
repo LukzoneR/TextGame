@@ -1,4 +1,4 @@
-# Dark Forest
+# Dark Forest(Demo)
 
 **Dark Forest** is a narrative-driven, text-based, console RPG set in a dark, post-apocalyptic world full of mysteries, puzzles, and dangers. The player takes on the role of a hero who wakes up with no memories in a dark forest and must survive, make choices, and fight enemies to uncover their destiny.
 ![image](https://github.com/user-attachments/assets/ba5d51af-8728-4f8e-b4b3-9ba7bfe1a6a3)
@@ -11,35 +11,28 @@
 3. Run the application (`Main` is located in `Program.cs`).
 4. Follow the on-screen instructions, make choices, and explore the world.
 
-## 🛠 Requirements
+## Requirements
 
 - .NET 6.0+
 - Windows / Linux / MacOS
 - System console
 
-## 📜 Key Features
+## Key Features
 
-✅ Dynamic storyline with multiple paths.  
-✅ Turn-based combat system against enemies.  
-✅ Earn gold, collect items, and upgrade your character.  
-✅ Shop where you can buy items and upgrades.  
-✅ Threats in the form of monsters, traps, and puzzles.
+-Dynamic storyline with multiple paths.  
+-Turn-based combat system against enemies.  
+-Earn gold, collect items, and upgrade your character.  
+-Shop where you can buy items and upgrades.  
+-Threats in the form of monsters, traps, and puzzles.
 
-## 🏗 Project Structure
+## Project Structure
 
 - `Domain/Entities` – Definitions of character, enemy, and item classes.  
 - `Methods` – Game mechanics (combat, shop, story progression).  
 - `Utilities` – Helper functions (e.g., text display system).  
 - `Program.cs` – Main game loop.
 
-## 🚀 Future Plans (the game is just DEMO for now)
-
-🔹 Expanding the story with additional paths and endings.  
-🔹 More enemy types and unique bosses.  
-🔹 Inventory system with weapon and armor switching.  
-🔹 Expanded NPC interactions and new RPG mechanics.
-
-## 💡 Author
+## Author
 
 👤 **LukzoneR**  
 📌 GitHub: [LukzoneR](https://github.com/LukzoneR)  
