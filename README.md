@@ -34,8 +34,8 @@
 
 ## Author
 
-👤 **LukzoneR**  
-📌 GitHub: [LukzoneR](https://github.com/LukzoneR)  
+**LukzoneR**  
+GitHub: [LukzoneR](https://github.com/LukzoneR)  
 
 Want to contribute? Fork the repository and submit pull requests! 🎮🔥
 
